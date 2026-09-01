@@ -384,7 +384,12 @@ def crossref_items(issn, journal, days):
 
 
 def crossref_targets(csv_path, failed_names, everything):
-    """Rows worth asking Crossref about, with their best ISSN."""
+    """Rows worth asking Crossref about, with every ISSN they carry.
+
+    Journals often deposit under their print ISSN rather than the online one,
+    or vice versa, so both are worth trying before concluding that Crossref
+    does not hold the journal.
+    """
     with open(csv_path, newline="", encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh))
     out = []
@@ -395,9 +400,13 @@ def crossref_targets(csv_path, failed_names, everything):
         gap = (not has_feed) or (name in failed_names)
         if not (everything or gap):
             continue
-        issn = (r.get("issn_online") or "").strip() or (r.get("issn_print") or "").strip()
-        if issn:
-            out.append((name, issn))
+        issns = []
+        for field in ("issn_online", "issn_print"):
+            v = (r.get(field) or "").strip()
+            if v and v not in issns:
+                issns.append(v)
+        if issns:
+            out.append((name, issns))
     return out
 
 
@@ -555,8 +564,13 @@ def main():
         targets = crossref_targets(args.csv, failed_names, args.crossref_all)
         print("\nCrossref: querying %d journals (%d days back)"
               % (len(targets), args.crossref_days))
-        for name, issn in targets:
-            items, note = crossref_items(issn, name, args.crossref_days)
+        for name, issns in targets:
+            items, note, issn = [], "no ISSN recorded", ""
+            for candidate in issns:
+                items, note = crossref_items(candidate, name, args.crossref_days)
+                issn = candidate
+                if note == "ok" and items:
+                    break  # this ISSN works; no need to try the other
             fresh = 0
             dupes = 0
             for it in items:
