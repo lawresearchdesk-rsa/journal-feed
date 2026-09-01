@@ -17,11 +17,22 @@ Options:
     --out-dir PATH    where to write merged.xml and store.json (default .)
     --max-items N     how many items the merged feed carries (default 200)
     --self-test       parse built-in samples and exit; makes no network calls
+    --publish         after merging, upload the output to GitHub so the
+                      published feed URL updates. Needs a token: see below.
+
+Publishing:
+    Set two environment variables (or pass --repo):
+        GITHUB_TOKEN  a fine-grained personal access token with Contents:
+                      read and write on the one repository, and nothing else
+        GITHUB_REPO   e.g. lawresearchdesk-rsa/journal-feed
+    The token is read from the environment only. Do not put it in this file
+    and do not commit it anywhere.
 
 Requires: Python 3.9+ and requests (pip install requests).
 """
 
 import argparse
+import base64
 import csv
 import hashlib
 import json
@@ -278,6 +289,47 @@ def build_rss(items, max_items):
     return ET.tostring(rss, encoding="unicode", xml_declaration=True)
 
 
+# ---------------------------------------------------------------- publishing
+
+
+API = "https://api.github.com"
+
+
+def publish_file(repo, path, content, token, branch="main"):
+    """Create or update one file in a GitHub repository via the API.
+
+    Returns a short status string. Uses the Contents API, which needs the
+    file's current sha to replace it, so we look that up first.
+    """
+    url = "%s/repos/%s/contents/%s" % (API, repo, path)
+    head = {
+        "Authorization": "Bearer %s" % token,
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+
+    sha = None
+    r = requests.get(url, headers=head, params={"ref": branch}, timeout=TIMEOUT)
+    if r.status_code == 200:
+        sha = r.json().get("sha")
+    elif r.status_code not in (404,):
+        return "lookup failed: HTTP %d %s" % (r.status_code, r.reason)
+
+    encoded = base64.b64encode(content.encode("utf-8")).decode("ascii")
+    body = {
+        "message": "Update %s (%s)" % (path, datetime.now(timezone.utc).date()),
+        "content": encoded,
+        "branch": branch,
+    }
+    if sha:
+        body["sha"] = sha
+
+    r = requests.put(url, headers=head, json=body, timeout=TIMEOUT)
+    if r.status_code in (200, 201):
+        return "uploaded"
+    return "upload failed: HTTP %d %s %s" % (r.status_code, r.reason, r.text[:200])
+
+
 # ---------------------------------------------------------------- self-test
 
 SAMPLE_RSS2 = """<?xml version="1.0"?><rss version="2.0"><channel><title>T</title>
@@ -338,6 +390,10 @@ def main():
     ap.add_argument("--out-dir", default=".")
     ap.add_argument("--max-items", type=int, default=200)
     ap.add_argument("--self-test", action="store_true")
+    ap.add_argument("--publish", action="store_true")
+    ap.add_argument("--repo", default=os.environ.get("GITHUB_REPO", ""))
+    ap.add_argument("--branch", default="main")
+    ap.add_argument("--remote-dir", default="docs")
     args = ap.parse_args()
 
     if args.self_test:
@@ -389,6 +445,20 @@ def main():
         for name, why in failures:
             print("  %-10s %s" % (name, why))
     print("wrote %s and %s" % (merged_path, store_path))
+
+    if args.publish:
+        token = os.environ.get("GITHUB_TOKEN", "")
+        if not token or not args.repo:
+            print("publish skipped: set GITHUB_TOKEN and GITHUB_REPO first")
+            return
+        for local, remote in (
+            (merged_path, args.remote_dir + "/merged.xml"),
+            (store_path, args.remote_dir + "/store.json"),
+        ):
+            with open(local, encoding="utf-8") as fh:
+                body = fh.read()
+            print("  %-18s %s" % (remote, publish_file(
+                args.repo, remote, body, token, args.branch)))
 
 
 if __name__ == "__main__":
