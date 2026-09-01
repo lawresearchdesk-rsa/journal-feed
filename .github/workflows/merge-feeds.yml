@@ -18,6 +18,11 @@ on:
 permissions:
   contents: write  # the job commits its output back to the repository
 
+concurrency:
+  # Never let two runs commit at once; the second waits for the first.
+  group: merge-feeds
+  cancel-in-progress: false
+
 jobs:
   merge:
     runs-on: ubuntu-latest
@@ -45,5 +50,8 @@ jobs:
             echo "No new items; nothing to commit."
           else
             git commit -m "Update merged feed ($(date -u +%Y-%m-%d))"
+            # Rebase onto anything that landed while this run was working,
+            # then push. Without this, an edit made mid-run causes a rejection.
+            git pull --rebase origin main
             git push
           fi
