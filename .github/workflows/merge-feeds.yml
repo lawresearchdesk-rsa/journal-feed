@@ -39,7 +39,10 @@ jobs:
         run: pip install requests
 
       - name: Run the merger
-        run: python merge_feeds.py --csv journals.csv --out-dir docs
+        # --crossref fills the gaps: journals whose feed is absent, and any
+        # whose feed refuses GitHub's datacentre (Taylor & Francis, UNISA
+        # Press). Crossref is an API and answers from anywhere.
+        run: python merge_feeds.py --csv journals.csv --out-dir docs --crossref
 
       - name: Commit the result if anything changed
         run: |
