@@ -17,6 +17,14 @@ Options:
     --out-dir PATH    where to write merged.xml and store.json (default .)
     --max-items N     how many items the merged feed carries (default 200)
     --self-test       parse built-in samples and exit; makes no network calls
+    --crossref        after the feeds, query Crossref by ISSN for any journal
+                      whose feed is absent or failed. Crossref is an API, not
+                      a publisher website, so it answers requests from GitHub
+                      that Taylor & Francis and UNISA Press refuse.
+    --crossref-days N how far back to ask Crossref (default 400)
+    --crossref-all    query Crossref for every journal, not just the gaps.
+                      Slower, and duplicates are harmless, but useful once to
+                      see which journals Crossref actually covers.
     --publish         after merging, upload the output to GitHub so the
                       published feed URL updates. Needs a token: see below.
 
@@ -39,7 +47,7 @@ import json
 import os
 import sys
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 
 import time
@@ -71,6 +79,17 @@ RSS1 = "{http://purl.org/rss/1.0/}"
 DC = "{http://purl.org/dc/elements/1.1/}"
 
 EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+
+def title_key(journal, title):
+    """A loose key for spotting the same article arriving by two routes.
+
+    The feed gives a publisher link, Crossref gives a DOI, so the primary id
+    differs even when the article is identical. Comparing normalised titles
+    within a journal catches that.
+    """
+    flat = "".join(c.lower() for c in (title or "") if c.isalnum())
+    return journal + "|" + flat[:120]
 
 
 # ---------------------------------------------------------------- dates
@@ -289,6 +308,99 @@ def build_rss(items, max_items):
     return ET.tostring(rss, encoding="unicode", xml_declaration=True)
 
 
+# ---------------------------------------------------------------- crossref
+
+
+CROSSREF = "https://api.crossref.org/journals/%s/works"
+# Crossref asks that heavy users identify themselves; doing so also puts the
+# request in their faster "polite" pool. Any working address is acceptable.
+CROSSREF_UA = "journal-feed-merger/1.0 (mailto:noreply@example.invalid)"
+
+
+def crossref_items(issn, journal, days):
+    """Fetch recent works for one ISSN. Returns (items, note)."""
+    since = (datetime.now(timezone.utc) - timedelta(days=days)).date().isoformat()
+    params = {
+        "filter": "from-pub-date:%s,type:journal-article" % since,
+        "rows": "100",
+        "sort": "published",
+        "order": "desc",
+        "select": "DOI,title,author,issued,published,abstract,container-title",
+    }
+    try:
+        r = requests.get(CROSSREF % issn, params=params,
+                         headers={"User-Agent": CROSSREF_UA}, timeout=TIMEOUT)
+    except requests.RequestException as exc:
+        return [], "request failed: %s" % exc.__class__.__name__
+    if r.status_code == 404:
+        return [], "ISSN not known to Crossref"
+    if r.status_code != 200:
+        return [], "HTTP %d %s" % (r.status_code, r.reason)
+
+    try:
+        works = r.json()["message"]["items"]
+    except (ValueError, KeyError):
+        return [], "unexpected response format"
+
+    out = []
+    for w in works:
+        title_list = w.get("title") or []
+        title = title_list[0] if title_list else ""
+        doi = w.get("DOI", "")
+        if not title:
+            continue  # front matter and errata often arrive titleless
+
+        parts = ((w.get("published") or w.get("issued") or {})
+                 .get("date-parts") or [[]])[0]
+        date = ""
+        if parts:
+            y = parts[0]
+            mo = parts[1] if len(parts) > 1 else 1
+            d = parts[2] if len(parts) > 2 else 1
+            try:
+                date = datetime(y, mo, d, tzinfo=timezone.utc).isoformat()
+            except (TypeError, ValueError):
+                date = ""
+
+        names = []
+        for a in (w.get("author") or [])[:8]:
+            nm = " ".join(x for x in (a.get("given"), a.get("family")) if x)
+            if nm:
+                names.append(nm)
+
+        link = "https://doi.org/" + doi if doi else ""
+        key = link or (journal + "|" + title)
+        out.append({
+            "id": hashlib.sha1(key.encode("utf-8")).hexdigest(),
+            "journal": journal,
+            "title": title or "(untitled)",
+            "link": link,
+            "author": ", ".join(names),
+            "summary": (w.get("abstract") or "")[:2000],
+            "date": date,
+            "first_seen": datetime.now(timezone.utc).isoformat(),
+        })
+    return out, "ok"
+
+
+def crossref_targets(csv_path, failed_names, everything):
+    """Rows worth asking Crossref about, with their best ISSN."""
+    with open(csv_path, newline="", encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh))
+    out = []
+    for r in rows:
+        name = r["short_name"]
+        has_feed = bool((r.get("feed_url") or "").strip()) and \
+            (r.get("feed_status") or "").lower().startswith("confirmed")
+        gap = (not has_feed) or (name in failed_names)
+        if not (everything or gap):
+            continue
+        issn = (r.get("issn_online") or "").strip() or (r.get("issn_print") or "").strip()
+        if issn:
+            out.append((name, issn))
+    return out
+
+
 # ---------------------------------------------------------------- publishing
 
 
@@ -390,6 +502,9 @@ def main():
     ap.add_argument("--out-dir", default=".")
     ap.add_argument("--max-items", type=int, default=200)
     ap.add_argument("--self-test", action="store_true")
+    ap.add_argument("--crossref", action="store_true")
+    ap.add_argument("--crossref-days", type=int, default=400)
+    ap.add_argument("--crossref-all", action="store_true")
     ap.add_argument("--publish", action="store_true")
     ap.add_argument("--repo", default=os.environ.get("GITHUB_REPO", ""))
     ap.add_argument("--branch", default="main")
@@ -412,6 +527,7 @@ def main():
     print("%d confirmed feeds in %s" % (len(roster), args.csv))
 
     failures = []
+    seen_titles = set(title_key(i["journal"], i["title"]) for i in store.values())
     for j in roster:
         try:
             body = fetch(j["url"], j["tls"])
@@ -426,10 +542,38 @@ def main():
             continue
         fresh = 0
         for it in items:
-            if it["id"] not in store:
-                store[it["id"]] = it
-                fresh += 1
+            tk = title_key(it["journal"], it["title"])
+            if it["id"] in store or tk in seen_titles:
+                continue
+            store[it["id"]] = it
+            seen_titles.add(tk)
+            fresh += 1
         print("  %-10s %3d items, %d new" % (j["name"], len(items), fresh))
+
+    if args.crossref or args.crossref_all:
+        failed_names = set(n for n, _ in failures)
+        targets = crossref_targets(args.csv, failed_names, args.crossref_all)
+        print("\nCrossref: querying %d journals (%d days back)"
+              % (len(targets), args.crossref_days))
+        for name, issn in targets:
+            items, note = crossref_items(issn, name, args.crossref_days)
+            fresh = 0
+            dupes = 0
+            for it in items:
+                tk = title_key(it["journal"], it["title"])
+                if it["id"] in store or tk in seen_titles:
+                    dupes += 1
+                    continue
+                store[it["id"]] = it
+                seen_titles.add(tk)
+                fresh += 1
+            if note != "ok":
+                print("  %-10s %-14s %s" % (name, issn, note))
+            else:
+                print("  %-10s %-14s %3d works, %d new, %d already held"
+                      % (name, issn, len(items), fresh, dupes))
+                if name in failed_names and items:
+                    failures = [f for f in failures if f[0] != name]
 
     os.makedirs(args.out_dir, exist_ok=True)
     with open(store_path, "w", encoding="utf-8") as fh:
@@ -438,7 +582,7 @@ def main():
     with open(merged_path, "w", encoding="utf-8") as fh:
         fh.write(build_rss(list(store.values()), args.max_items))
 
-    print("\n%d new items this run, %d in store, %d of %d feeds failed"
+    print("\n%d new items this run, %d in store, %d of %d feeds unrecovered"
           % (len(store) - before, len(store), len(failures), len(roster)))
     if failures:
         print("failed feeds:")
