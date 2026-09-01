@@ -31,13 +31,28 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 
+import time
+
 import requests
 import urllib3
+
+
+class FetchError(Exception):
+    """A feed could not be retrieved; the message says why."""
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 TIMEOUT = 30
-HEADERS = {"User-Agent": "Mozilla/5.0 (journal-feed-merger; academic use)"}
+RETRIES = 3          # attempts per feed
+BACKOFF = 4          # seconds, multiplied by attempt number
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    "Accept-Language": "en-ZA,en;q=0.9",
+}
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 RDF = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
@@ -189,10 +204,36 @@ def load_roster(path):
 
 
 def fetch(url, tls):
+    """Fetch a feed, retrying transient failures.
+
+    Raises FetchError carrying a human-readable reason: an HTTP status code
+    where the server answered, or the underlying network error where it did
+    not. Knowing which is which is the whole diagnostic value.
+    """
     verify = tls != "relaxed"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=verify)
-    r.raise_for_status()
-    return r.text
+    last = "unknown"
+    for attempt in range(1, RETRIES + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=verify)
+        except requests.exceptions.SSLError as exc:
+            last = "SSL: %s" % str(exc)[:120]
+        except requests.exceptions.ConnectTimeout:
+            last = "connect timeout after %ds" % TIMEOUT
+        except requests.exceptions.ReadTimeout:
+            last = "read timeout after %ds" % TIMEOUT
+        except requests.exceptions.ConnectionError as exc:
+            last = "connection refused or unreachable: %s" % str(exc)[:120]
+        except requests.RequestException as exc:
+            last = "%s: %s" % (exc.__class__.__name__, str(exc)[:120])
+        else:
+            if r.status_code == 200:
+                return r.text
+            last = "HTTP %d %s" % (r.status_code, r.reason or "")
+            if r.status_code in (403, 401, 404, 451):
+                break  # a refusal will not improve on retry
+        if attempt < RETRIES:
+            time.sleep(BACKOFF * attempt)
+    raise FetchError(last)
 
 
 # ---------------------------------------------------------------- output
@@ -314,13 +355,17 @@ def main():
     roster = load_roster(args.csv)
     print("%d confirmed feeds in %s" % (len(roster), args.csv))
 
-    failures = 0
+    failures = []
     for j in roster:
         try:
             body = fetch(j["url"], j["tls"])
             items = parse_feed(body, j["name"])
+        except FetchError as exc:
+            failures.append((j["name"], str(exc)))
+            print("  %-10s FAILED  %s" % (j["name"], exc))
+            continue
         except Exception as exc:
-            failures += 1
+            failures.append((j["name"], exc.__class__.__name__))
             print("  %-10s FAILED  %s" % (j["name"], exc.__class__.__name__))
             continue
         fresh = 0
@@ -337,8 +382,12 @@ def main():
     with open(merged_path, "w", encoding="utf-8") as fh:
         fh.write(build_rss(list(store.values()), args.max_items))
 
-    print("\n%d new items this run, %d in store, %d feeds failed"
-          % (len(store) - before, len(store), failures))
+    print("\n%d new items this run, %d in store, %d of %d feeds failed"
+          % (len(store) - before, len(store), len(failures), len(roster)))
+    if failures:
+        print("failed feeds:")
+        for name, why in failures:
+            print("  %-10s %s" % (name, why))
     print("wrote %s and %s" % (merged_path, store_path))
 
 
