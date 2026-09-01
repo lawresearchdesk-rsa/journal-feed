@@ -30,6 +30,16 @@
   "first_seen": "2026-09-01T11:08:56.371740+00:00"
  },
  {
+  "id": "700027c2d883cbed34298985266e4716666d0ace",
+  "journal": "SAJHR",
+  "title": "Environmental racism and occupation in international law: The case of Palestine",
+  "link": "https://doi.org/10.1080/02587203.2026.2712909",
+  "author": "Waad Abualrob",
+  "summary": "",
+  "date": "2026-08-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580032+00:00"
+ },
+ {
   "id": "59559f862606cb1c009e5f0a654d25984eb3251e",
   "journal": "TSAR",
   "title": "A Kok",
@@ -270,6 +280,16 @@
   "first_seen": "2026-09-01T11:08:56.371721+00:00"
  },
  {
+  "id": "69d9abde8bffea29663655170bcce09bd863ec2b",
+  "journal": "SAJHR",
+  "title": "Public versus stakeholder engagement: A distinction for policy-makers to avoid undue interference",
+  "link": "https://doi.org/10.1080/02587203.2026.2701076",
+  "author": "Sameera Mahomedy, Darshen Naidoo",
+  "summary": "",
+  "date": "2026-07-21T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580054+00:00"
+ },
+ {
   "id": "dc4e7443b387bfa05430566b4d0896afa78b2558",
   "journal": "PELJ",
   "title": "Editorial: Legal-Technical Governance and Regulation of Artificial Intelligence in Africa",
@@ -298,6 +318,66 @@
   "summary": "<p class=\"Abstract\"><span lang=\"EN-GB\">A legal maxim holds that ‘it is not knowing all the law that counts but knowing where to find the law that makes a good lawyer a great lawyer,’ highlighting the importance of legal research. While technology and artificial intelligence (AI) have transformed research and drafting, they are prone to errors, including fabricated authorities. Courts, especially in the United States (US), have sanctioned misuse and South African courts have raised concerns, though no regulations yet exist. This paper examines AI use in legal research by undertaking a detailed analysis of the recent case law, in the US and South Africa, that has considered this topic. This paper will be divided into five parts: Part 1 serves as an introduction and overview of the topic; Part 2 briefly considers some of the AI tools currently available and their possible application in legal practice; Part 3 investigates how some AI tools have been used in the US; Part 4 considers the use of AI tools in the South African legal system; and Part 5 serves as a conclusion and provides some key recommendations in this area. It is hoped that this discussion will bring to light the need for AI regulation and, possibly, the prompt implementation of guidelines and rules to regulate its use not only in legal practice, but also in society. The article draws on both primary and secondary materials and employs a qualitative desktop research method. This article calls for, inter alia, concerted efforts by the legislature and other relevant stakeholders to comprehensively regulate the use of AI by legal practitioners when conducting legal research in order to retain the integrity of the South African legal profession. </span></p>",
   "date": "2026-07-17T00:00:00+00:00",
   "first_seen": "2026-09-01T11:08:56.371731+00:00"
+ },
+ {
+  "id": "8f74d25ee263c0ff9bf0b9a7031400b9af4dbbaf",
+  "journal": "AJIC",
+  "title": "Integration of AI tools into management and governance of humanitarian projects in conflict-affected North-West Nigeria",
+  "link": "https://doi.org/10.23962/ajic.i37.25969",
+  "author": "Akaninyene O. Unaam, Etini A. Unaam",
+  "summary": "<jats:p>Humanitarian projects in conflict zones face extreme complexity caused by, inter alia, volatility, fragmentation, and accountability pressures. Such complexity often renders conventional project implementation approaches inadequate. This study, focused on the conflict zone of North-West Nigeria, investigated the extent to which artificial intelligence (AI) tools can enhance the effectiveness of management governance and governance of humanitarian projects. Grounded in sociotechnical systems (STS) theory, the study surveyed 300 project personnel across Kebbi, Katsina, and Jigawa States, and conducted interviews with 25 of the personnel. Statistical analysis of the quantitative data from the survey found that the adoption of AI tools had a statistically significant correlation with project management effectiveness (β = .46, p &lt; .001), with organisational readiness and ethical governance found to serve as significant partial mediators. The qualitative findings from the interview data identified AI tools’ positive roles in project management and governance—through support for (human-led) decision support, transparency, and anticipatory governance—but also revealed tensions around equity, attentional displacement, and the marginalisation of national actors.</jats:p>",
+  "date": "2026-07-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097318+00:00"
+ },
+ {
+  "id": "acc6eeff77b942484db024520a7947bde181f3e2",
+  "journal": "AJIC",
+  "title": "Instability absorption by tertiary educators: Technology adoption under conditions of fragility in the Liberian higher education sector",
+  "link": "https://doi.org/10.23962/ajic.i37.26232",
+  "author": "Olajide Jolugbo, Agnes Reeves-Taylor",
+  "summary": "<jats:p>Digital transformation in higher education is frequently framed in terms of access and adoption. Such framings generally failed to consider how digital higher education systems function under conditions of persistent infrastructural instability and constrained institutional capacity. This study examines Liberian educators’ experiences of digital provision under conditions of fragility in the country’s higher education sector. Based on data from interviews and a survey with 22 educators across 11 Liberian tertiary institutions, the research found that continuity is sustained to a great extent not through the provision of technological systems and user acceptance of those systems, but rather through educators’ adaptations to the unstable state of the technological infrastructure. The educators’ responses fall into four main instability absorption categories—responsibility displacement; non-institutional and informal communication infrastructures; communicative labour; and uneven digital labour—and the study proposes the instability absorption model (IAM) to explain how these absorption practices sustain digital education delivery. The model frames technology adoption under conditions of fragility as a process of sustained operationalisation, where systems continue functioning through continuous human absorption of infrastructure disruption.</jats:p>",
+  "date": "2026-07-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097333+00:00"
+ },
+ {
+  "id": "1b7087b35e4b4b0e5b6dc7aa74b2ca78217377ee",
+  "journal": "AJIC",
+  "title": "Bridging global and local influences: Kenya’s emerging approach to AI governance",
+  "link": "https://doi.org/10.23962/ajic.i37.24852",
+  "author": "Jeremiah Osida Onunga",
+  "summary": "<jats:p>The rapid adoption of artificial intelligence (AI) has intensified demand for national AI governance frameworks that balance innovation with ethical, legal, and societal safeguards. Emerging economies such as Kenya face the dual challenge of seeking to foster AI-driven growth while at the same time managing numerous risks. This study explores Kenya’s emerging approach to AI governance, as represented by its Artificial Intelligence Strategy 2025–2030 and Artificial Intelligence Bill of 2026. Through policy–legislative content analysis, the study examines the degree to which Kenya’s approach is both transplanting and localising the orientation and provisions of the EU’s influential AI governance instrument, the Artificial Intelligence Act of 2024. The research also applies a contextual-adaptation analysis to examine the extent to which Kenya’s AI governance approach is geared towards its particular national needs.</jats:p>",
+  "date": "2026-07-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097341+00:00"
+ },
+ {
+  "id": "cf361e8ac0f389efe30200d4e0ff5f22e309e92c",
+  "journal": "AJIC",
+  "title": "Negotiating and navigating colourism in Cuba and Ghana: Perspectives represented in the work of Cuban poet Nicolás Guillén and in Ghanaian TikTok and YouTube content",
+  "link": "https://doi.org/10.23962/ajic.i37.25457",
+  "author": "Franklina Kabio-Danlebo, Setor Donne Novieto",
+  "summary": "<jats:p>There is a strong body of literature on colourism—discrimination among people of colour on the basis of darkness or lightness of skin tone—as it has manifested, and continues to manifest, among Black communities in the Americas and Africa. The phenomenon, with its roots in colonialism, is sufficiently powerful to produce a wide range of social, cultural, and economic effects and a wide range of responses, including skin-bleaching practices that can have severe health consequences. This study explores the dynamics of colourism in two national contexts, Cuba and Ghana, which are highly distinct from each other and at the same time both strongly marked by the sociocultural legacies of colonialism, including the phenomenon of colourism. The study examines Cuban colourism as it is explored and combatted in the 1930s poetry of Cuban writer Nicolás Guillén, and Ghanaian colourism as it is both promoted and critiqued in contemporary TikTok and YouTube social-media content.</jats:p>",
+  "date": "2026-07-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097350+00:00"
+ },
+ {
+  "id": "8587fe92645b6129acfd1a482e1431d10149ce8f",
+  "journal": "AJIC",
+  "title": "Digital public infrastructure (DPI) across Africa: A national identity systems perspective",
+  "link": "https://doi.org/10.23962/ajic.i37.25654",
+  "author": "Jonathan Klaaren",
+  "summary": "<jats:p>A rising global politics advocates for national investments in digital public infrastructure (DPI). The national DPI paradigm combines three core elements: digital national identity systems, digital national payment systems, and safe and secure data exchange. This study, grounded in literature on national identity systems and legal identity, assesses digital national identity systems in several African countries. Based on two of the core functions of identity systems (identification, authentication), as well as identity systems’ linkages to national payments systems, the study conceptualises four main types of digital national identity systems present in African countries: identification-led, authentication-led, plural, and payments-led. The study tests the applicability of the typology on a set of 11 African jurisdictions and finds that eight of the jurisdictions fit within the typology: South Africa, Uganda and Zambia (identification-led systems); Ethiopia and Morocco (authentication-led systems); Ghana (plural system); and Kenya and Nigeria (payments-led systems). The study contributes to global DPI debates by emphasising the authentication function in identity systems, by problematising the relationship between national identity systems and payment systems, and by engaging with global DPI indicators.</jats:p>",
+  "date": "2026-07-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097358+00:00"
+ },
+ {
+  "id": "0cb9c5775be8d6835b3f068e46e81a58af2c78a5",
+  "journal": "AJIC",
+  "title": "Retraction: Gopal, A.D. (2025). How web-interface design impacts task performance, cognitive load, and user experience (UX): An exploration with a cohort of South African university students",
+  "link": "https://doi.org/10.23962/ajic.i37.28035",
+  "author": "AJIC",
+  "summary": "<jats:p>This is a retraction of an article that was published in AJIC Issue 36 of 2025.</jats:p>",
+  "date": "2026-07-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097365+00:00"
  },
  {
   "id": "a31a46f6b001923c97516c34a4c15426d2c7014c",
@@ -348,6 +428,26 @@
   "summary": "<p>This research examines the Ocean Accounts Framework (OAF) as an instrument for ocean governance and policy development by South African local authorities. The Constitution imposes sustainable developmental duties on municipalities, requiring them to budget and plan in a way that prioritises basic community needs and promotes social and economic development. With their funding primarily coming from property rates, service surcharges and payments from national government, municipalities are responsible for local economic and infrastructure development, promoting a safe and healthy environment, and service delivery.</p> <p>Coastal management is the shared responsibility of all three branches of government and frequently overlaps. South Africa adopted the National Development Plan (NDP) to promote economic growth and address the triple challenge of inequality, unemployment and poverty. Operation Phakisa prioritises marine transport, offshore oil and gas, aquaculture and marine protection services.&nbsp;</p> <p>This article examines the relationship between the OAF and the legislative and policy instruments that guide coastal and ocean governance in South Africa’s local government sphere. As part of a community of practice (CoP), the research assesses the applicability of the OAF in South Africa and the Western Indian Ocean (WIO), with a focus on the legal context in which the OAF is to be used. It investigates the constitutional and legislative powers and functions of local authorities that are relevant to the blue economy and the extent to which municipalities exercise these powers and functions. It also assesses the OAF’s potential to evaluate food security and sustainability risks for local populations, and whether local authorities can legislate against marine-resource crimes to augment national legislation. Finally, the study argues that using the OAF to measure ocean value for municipal development could boost funding and help local authorities meet the requirements set by the Constitution, the NDP and the Sustainable Development Goals (SDGs). Local authorities should realise the importance of the ocean and its living resources and use a credible valuation tool to exercise their legislative powers.</p>",
   "date": "2026-07-09T22:00:00+00:00",
   "first_seen": "2026-09-01T11:01:22.154777+00:00"
+ },
+ {
+  "id": "704c32704765ea2df6cfc6bd616556992cc621df",
+  "journal": "AJLS",
+  "title": "Unconstitutional Transitions or Constitutions without Constitutionalism in Africa? A Review of Cameroon and Gabon Experiences",
+  "link": "https://doi.org/10.1163/17087384-bja10128",
+  "author": "Elisabeth Achancho Etagha",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>African constitutional practice continues to grapple with challenges of political instability and contested legitimacy. This article critically examines the tension between unconstitutional transitions and constitutions without constitutionalism in Africa, with a particular focus on the experiences of Cameroon and Gabon. It explores how formal constitutional frameworks, while outwardly adhering to legal norms, have been systematically manipulated to entrench authoritarian rule and undermine democratic legitimacy. Drawing on constitutional texts, legal reforms, and political events from both countries, the article distinguishes between de facto unconstitutional changes of government and de jure constitutional orders that nonetheless contravene fundamental democratic principles. The analysis employs a comparative constitutional methodology, supplemented by political theory and historical context, to evaluate the extent to which constitutions in these cases serve as instruments of democratic governance or authoritarian consolidation. The research reveals that in both cases, constitutional frameworks have been strategically modified to legitimise authoritarian rule, blurring the line between legality and illegitimacy. It calls for a reconceptualisation of constitutional practice in Africa, one that moves beyond formal legality toward substantive democratic norms rooted in accountability, participation, and human rights.</jats:p>",
+  "date": "2026-07-08T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240288+00:00"
+ },
+ {
+  "id": "74808dec520c24581ae484b917985a31657c8e1e",
+  "journal": "AJLS",
+  "title": "The House of Representatives of Zanzibar’s Encroachment on Union Constitutional Legislative Powers in Tanzania",
+  "link": "https://doi.org/10.1163/17087384-bja10129",
+  "author": "Ryoba Marwa",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>This Article examines the constitutional legal framework governing the division of legislative powers between the Union Parliament and the House of Representatives of Zanzibar within the United Republic of Tanzania. The United Republic of Tanzania operates under a unique constitutional arrangement that combines elements of both federalism and unitary governance. The study employed doctrinal analysis to examine how the House of Representatives of Zanzibar has encroached upon the Union Parliament’s legislative powers, thereby contravening the supremacy of the Constitution of the United Republic of Tanzania. This study revealed that the House of Representatives of Zanzibar has consistently exceeded its legislative powers, despite constitutional limits, by passing laws on ports, maritime exclusive economic zones, and petroleum resources, all of which are classified as Union Matters. This creates legal uncertainty, administrative duplication, enforcement fragmentation and jeopardises the integrity of the Union. The study concludes that these legislative intrusions contravene the principle of constitutional supremacy and recommends constitutional reform to strengthen safeguards against jurisdictional overlap and to align enacted laws with the Union’s constitutional supremacy.</jats:p>",
+  "date": "2026-06-30T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240302+00:00"
  },
  {
   "id": "b0834a3dc71267d84463506d0387ad784bdfcefd",
@@ -508,6 +608,56 @@
   "summary": "<p class=\"MsoNormal\">Johan van der Walt discusses key themes from his most recent book <em>The Literary Exception and the Rule of Law </em>Oxfordshire Routledge (2023) with Karin van Marle and Wessel le Roux. Van der Walt calls for a genre of law and literature scholarship that does not seek to soften or erase the differences between law and literature, as is typical in most law-as-literature scholarship, but that seeks to highlight the tensions between law and literature (represented by the avant garde poetry of Paul Celan and Paul Valéry). Van der Walt argues that the same event can give rise to a legal and a poetic response. Liberal society exists in the space that is opened up by these opposing trajectories. Liberal law must respect the non-poetic nature of its regulatory function and resist attempts, especially among nationalists and populists, to cure the <span lang=\"EN-GB\">existential inadequacy of law. </span></p>",
   "date": "2026-06-29T22:00:00+00:00",
   "first_seen": "2026-09-01T11:13:55.757351+00:00"
+ },
+ {
+  "id": "e7eb686fe1a5d52907aa99ca66e79a6cc34586a3",
+  "journal": "AJLS",
+  "title": "From Myth to Reality: Paradigms of Punishment in Yoruba Philosophy of Law",
+  "link": "https://doi.org/10.1163/17087384-bja10125",
+  "author": "Idowu William",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>In Western literature, a mythical capture seems to pervade realities about Africa. This is different from serial attempts at denying Africa of what she actually resonates in culture, politics, law and science. The objective of this paper consists in the attempt at transcending spelt out challenges that Eurocentric conceptions have imposed in the interpretations of traditional Yoruba Philosophy of law, with respect to the all-important subject matter of punishment. Specifically, the paper discussed the paradigms and forms of Punishment captured, covered and characterized in Yoruba Philosophy of Law. The paper discovered that there are peculiar forms of punishment that are culturally characteristic with traditional Yoruba Philosophy of law. Equally, the paper discovered that these forms of punishment reminisce the major drive and concern of Yoruba Philosophy of law which is the ideal of social cohesion, preservation and stability. The paper concluded that punishment remains an important aspect of Yoruba Philosophy of law even if is true that modern political realities have initiated and innovated changes in the peculiar connotations and conceptions that attenuated its traditional core characteristics.</jats:p>",
+  "date": "2026-06-25T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240310+00:00"
+ },
+ {
+  "id": "053e1349b8e98d9102dbb14406fe59842489ca64",
+  "journal": "AJLS",
+  "title": "Indigenous Peoples in International Law: Prohibited from Breathing?",
+  "link": "https://doi.org/10.1163/17087384-bja10126",
+  "author": "Viola Ronoh",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>With the world facing social, economic, environmental, cultural, environmental and political challenges, there have been intensification of the gap between the rich and the marginalised indigenous peoples. To analyse this situation, this article draws from the works of Achille Mbembe, The Universal Right to Breathe, an analysis of global inequalities and the politics of breathing. The universal right to breathe is metaphorically used to show that colonialism and weaponization of imperialists’ ideologies still persist resulting from the lack of States to ensure the protection of the environment and other living species with protecting the rights of vulnerable people. Hence, this study argues that the law enables wealth accumulation through a Eurocentric ideology especially by creating crises that lead to the deprivation of air from these peoples despite their legal recognition in international law. Breath becomes a site of terror resulting from racialisation in the global capitalist society.</jats:p>",
+  "date": "2026-06-25T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240318+00:00"
+ },
+ {
+  "id": "17b60ea94e8c694d6e06ee639f2c3795d8d665de",
+  "journal": "AJLS",
+  "title": "National Action Plans in Africa: a Beacon of Hope or a Quest to Keep Up with the Joneses?",
+  "link": "https://doi.org/10.1163/17087384-12340136",
+  "author": "Akinwumi Ogunranti",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    National Action Plans (\n                    <jats:sc>NAP</jats:sc>\n                     s) have been described as states’ evolving policy strategies to implement the United Nations Guiding Principles on Business and Human Rights. This article characterizes a\n                    <jats:sc>NAP</jats:sc>\n                    exercise as a ritual that evokes various regulatory responses from states. Using a ritual-ritualism analytical framework, it assesses\n                    <jats:sc>NAP</jats:sc>\n                     s in African states to determine their posture toward the\n                    <jats:sc>NAP</jats:sc>\n                    regulatory framework. It argues that most of them engage in ritualism, which involves superficial compliance with\n                    <jats:sc>NAP</jats:sc>\n                    regulatory requirements to avoid accountability or scrutiny. It then argues that African states must shift their posture from ritualism to genuine commitment if\n                    <jats:sc>NAP</jats:sc>\n                     s are to fulfil their potential. In doing so, they must strictly comply with international normative requirements, enact human rights due diligence legislation that imposes civil and criminal sanctions for non-compliance, and create a regional accountability framework through a peer-review process.\n                  </jats:p>",
+  "date": "2026-06-25T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240326+00:00"
+ },
+ {
+  "id": "afbb2a48777c61823a1892a421ad4b75f6e39bc4",
+  "journal": "AJLS",
+  "title": "African Court’s Enforcement of Equality and Non-discrimination Protections in the African Charter and Beyond",
+  "link": "https://doi.org/10.1163/17087384-12340135",
+  "author": "Lilian Chenwi",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>African states are formally committed to eliminating systematic inequalities and discrimination in Africa. This commitment is evident in Agenda 2063 and various African regional treaties. However, inequalities continue to prevail in the continent. In fulfilling its human rights protection mandate, the African Court on Human and Peoples’ Rights can assist in enforcing the equality and non-discrimination protections in the African Charter on Human and Peoples’ Rights and other applicable United Nations and African human rights treaties. Accordingly, this article examines how the Court helps enforce these protections, to highlight the important role and ability of the Court in addressing inequalities that contribute to rights violations and in fashioning remedial measures to address such violations. The article establishes that the Court’s limited but growing and significant equality jurisprudence positions equality and non-discrimination as important and related principles to be guaranteed to all without distinction, shows recognition of the need to go beyond formal equality to include substantive equality in addressing systemic discrimination, and affirms the role of law in securing equality. The Court’s equality jurisprudence has the potential to result in social change that addresses systemic inequalities and discrimination, but this is constrained by a compliance challenge that should be addressed.</jats:p>",
+  "date": "2026-06-25T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240333+00:00"
+ },
+ {
+  "id": "d085822036d216f3e72e6f490817360a61ffb1f1",
+  "journal": "AJLS",
+  "title": "The Case for a Human Rights-Based Approach to Social Security in Botswana",
+  "link": "https://doi.org/10.1163/17087384-12340134",
+  "author": "Emmanuel Botlhale",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    People experiencing vulnerability are entitled to social security, which must be provided by the state. Notably, Adam Smith’s invisible hand occasionally fails, resulting in market failure, hence the state must intervene to address vulnerabilities like poverty. Even though vulnerability is ever-present,\n                    <jats:sc>COVID-19</jats:sc>\n                    worsened it. According to a 2020 news release from the World Bank, 150 million people were predicted to live in poverty in 2021 due to the pandemic. In Africa, structural poverty has compounded these challenges. Hence, there is a strong justification for enhancing and expanding social security programmes in Africa. Social security in Africa is primarily policy-based, hence, limited legal judicial protection and justiciability. This paper examines Botswana’s policy-based social security system’s drawbacks. It argues that this regime, particularly in the post-\n                    <jats:sc>COVID-19</jats:sc>\n                    era, lacks robust legal safeguards. Thus, it recommends a human rights-based approach to social security to ensure maximum protection and justiciability. Lastly, given rife vulnerability, this approach is recommended for Africa.\n                  </jats:p>",
+  "date": "2026-06-25T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240341+00:00"
  },
  {
   "id": "64224add1a66c3853259cc779482e1be15edab54",
@@ -750,6 +900,66 @@
   "first_seen": "2026-09-01T11:01:14.205850+00:00"
  },
  {
+  "id": "927559642c775d4887e8a623b296984de77b9b82",
+  "journal": "SAJHR",
+  "title": "Mass graves as instruments of Israel’s settler colonial violence: Indigenous removal from 1948 to 2023",
+  "link": "https://doi.org/10.1080/02587203.2026.2656187",
+  "author": "Muna Haddad",
+  "summary": "",
+  "date": "2026-05-23T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580067+00:00"
+ },
+ {
+  "id": "cd37803af29a76483327251e86267497f4c92d42",
+  "journal": "SAJHR",
+  "title": "Beyond the binary: Unravelling gendered language in legislation towards inclusivity",
+  "link": "https://doi.org/10.1080/02587203.2026.2671737",
+  "author": "Johndré Barnes",
+  "summary": "",
+  "date": "2026-05-21T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580077+00:00"
+ },
+ {
+  "id": "1bdd1904fb82887b7623ff2c5a1fe84f6a5fa912",
+  "journal": "CILSA",
+  "title": "Editorial",
+  "link": "https://doi.org/10.25159/2522-3062/21761",
+  "author": "Rehana Cassim",
+  "summary": "",
+  "date": "2026-05-12T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421338+00:00"
+ },
+ {
+  "id": "bbdbefeadb9f0589d239d6066a59d4ac8778b8b5",
+  "journal": "CILSA",
+  "title": "The Role of Workplace Law in Addressing Mental Conditions as an Incapacity: Lessons from the Australian Model",
+  "link": "https://doi.org/10.25159/2522-3062/19907",
+  "author": "Grace Bambisa, Grace Mbajiorgu",
+  "summary": "<jats:p>The state of employees’ mental health is fundamental for workplace functionality and productivity, necessitating a work environment free from negative factors such as depression and anxiety. This article analyses the efficacy of labour laws in safeguarding employees with mental health issues arising from toxic work environments. It advances two main aims: firstly, it examines mental health conditions in relation to workplace incapacity and disability, emphasising the need for appropriate accommodations for affected employees; and secondly, it argues that the current labour laws inadequately address mental health by focusing predominantly on physical health definitions. The article advocates that adequate amendments should be enacted to existing occupational health laws to include mental conditions as ill health, using the Australian model to highlight the need for a more comprehensive legal framework. Finally, the article contends that labour laws are vital in fostering a workplace that enhances productivity by mitigating psychosocial risk factors.</jats:p>",
+  "date": "2026-05-12T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421345+00:00"
+ },
+ {
+  "id": "af2576b24d43e6615951d51fbc93c43ee4ad76b7",
+  "journal": "CILSA",
+  "title": "Balancing Risk and Opportunity: A Legal Perspective on the International Trade of Insects Beyond the ‘Pest’ Lens",
+  "link": "https://doi.org/10.25159/2522-3062/19072",
+  "author": "Biandri Joubert",
+  "summary": "<jats:p>The international trade of insects into and out of South Africa remains constrained by a persistent regulatory ‘pest lens’ that fails to recognise insects as legitimate commodities within agricultural, food and feed systems. This article challenges the narrow legal perspective of South African law highlighting fragmented domestic framework, limited relevant definitions and a reliance on legislation not designed for commercial insect trade. Drawing on the principles, rights and obligations of The World Trade Organisation’s Agreement on the Application of Sanitary and Phytosanitary Measures and related international standard setting bodies it proposes a shift towards a balance between insect trade facilitation and necessary protection of humans, animal and plant life or health. This article shows that this situation may lead to avoidable barriers to trade and constrained growth of the insect industry. It may also lead to gaps in Sanitary and Phytosanitary (SPS) risk management. This article makes the point that insects should not be confined in regulation to a ‘pest management’ or ‘pest lens’. Without purpose-specific regulation and policy, the insect industry remains vulnerable to trade barriers on account of legal uncertainty.</jats:p>",
+  "date": "2026-05-12T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421352+00:00"
+ },
+ {
+  "id": "c78fecb51ab388593c1ecda64f4fc4221045f2c7",
+  "journal": "CILSA",
+  "title": "Who Could Have Imagined It Would Turn Out to Be This ‘Sublime’? Twenty-Five Years of the UDRP, The Initial WIPO-ICA UDRP Review and How Domain Name Dispute Resolution in the ‘.za’ Domain Compares",
+  "link": "https://doi.org/10.25159/2522-3062/20885",
+  "author": "Eddie Hurter",
+  "summary": "<jats:p>The Uniform Dispute Resolution Policy (UDRP) was developed in response to the need for the timely and effective resolution of disputes where protected trade marks were registered as domain names. Since its inception in 1999, it has proven to be a largely fair and effective remedy against ‘cybersquatting’, the bad-faith registration of domain names in violation of trade mark rights. Twenty-five years later, experts are reviewing the policy through the World Intellectual Property Organization-Internet Commerce Association (WIPO-ICA) UDRP Review Process to consider possible amendments to the global domain name dispute resolution system. The Initial Report of the WIPO-ICA UDRP Review Project Team, intended to inform the future Internet Corporation for Assigned Names and Numbers Policy Development Process, is analysed to identify recent UDRP trends, reasoning and best practice and to compare them with South Africa’s ‘.za’ domain name dispute resolution system.  </jats:p>",
+  "date": "2026-05-12T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421359+00:00"
+ },
+ {
   "id": "486f352194bccfd85f61d77c0721603fafc0374b",
   "journal": "LDD",
   "title": "The implications of unconstitutional changes of government for democracy and the rule of law in Africa: A human rights perspective",
@@ -828,6 +1038,96 @@
   "summary": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-ZA; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">This article illustrates </span><span lang=\"EN-GB\" style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">the pyrrhic effects accompanying increased attempts at protecting the interests of animals under environmental laws. The South African Constitutional Court in <em>National Society for the Prevention of Cruelty to Animals v Minister of Justice and Constitutional Development </em>advanced an </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-ZA; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">\"</span><span lang=\"EN-GB\" style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">integrative approach</span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-ZA; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">\"</span><span lang=\"EN-GB\" style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> that not only directly connects animal protection with the Constitutional right to have the environment protected, but makes the confusing and misleading claim of illustrating the extent to which showing respect and concern for <em>individual</em> animals reinforces broader environmental protection efforts. This article illustrates </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt; line-height: 107%; font-family: 'Arial',sans-serif; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-ZA; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">that the integrative approach to the environmental right in the <em>Constitution of the Republic of South Africa, </em>1996 (hereafter <em>Constitution</em>) is philosophically unsound in claiming to embrace the Animal in her individuality. Rather, environmental law frameworks disavow our embeddedness in nature by creating an anthropocentric biopolitical locus of control that entrenches an oppositional limit between Man and nature and commodifying nature in its entirety. When connected to two foundational environmental concerns of \"conservation\" and \"sustainable use\", as expressed in section 24 of the <em>Constitution</em>, the particularity of the Animal is erased as she becomes objectivised and subsumed in a utilitarian calculus as a utility object under the control of humans. The metabolisation of animality in relation to these constructs or markers gives rise to what I term the singular-plural aporia in environmental law; a fundamental contradiction effecting a violative relation to Otherness that precludes the possibility of an ethical encounter with the animal Other in her singularity. Drawing on Jacques Derrida's insights into the problematic ramifications of sacrificial anthropocentric discourses and Vito De Lucia's biopolitical reading of environmental law, this article argues that any potential engagement or consideration of the singular animal within an environmental law framework inevitably passes through an aporetic moment in which she is always already subsumed in a larger calculus that intrinsically focusses on plurality and effectively forecloses the possibility of fully embracing her individuality.</span></p>",
   "date": "2026-04-14T22:00:00+00:00",
   "first_seen": "2026-09-01T11:01:14.205682+00:00"
+ },
+ {
+  "id": "926dc85448a93d42d188b8a0789a938007c4223b",
+  "journal": "AJLS",
+  "title": "Arguments for a Legal Framework on Non-Compete and Other Restrictive Post-Employment Covenants in Mauritius",
+  "link": "https://doi.org/10.1163/17087384-bja10121",
+  "author": "Bhavna Mahadew, Bhinodinee Daramsing",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>This article examines the necessity for a legal framework governing non-compete and other restrictive post-employment covenants in Mauritius, providing a comprehensive analysis of the current legal landscape and its implications for employers and employees. The absence of a clear legal framework in Mauritius leads to inconsistent enforcement of non-compete agreements, highlighting the need for a well-defined legal framework for economic competitiveness and worker protection. By employing doctrinal and comparative legal research methodologies, this study explores the legal frameworks of Austria and France to guide the formulation of a robust regulatory approach in Mauritius. The article proposes six key recommendations for establishing a coherent legal framework in Mauritius: statutory compensation for non-compete clauses, ensuring proportionality in duration and geographical scope, implementing mandatory judicial scrutiny and transparency, developing sector-specific guidelines, promoting alternative mechanisms, and enhancing legal awareness and training. By contributing to the academic understanding of non-compete covenants in Mauritius, this research offers actionable insights for policymakers, legal practitioners and businesses, emphasising the importance of fostering a fair and competitive market.</jats:p>",
+  "date": "2026-04-14T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240349+00:00"
+ },
+ {
+  "id": "18ba1f435ee386b579647ff629092e4ccea792f7",
+  "journal": "CILSA",
+  "title": "Child Labour in Conflict Situations: Deciphering the Approach of the African Committee of Experts on the Rights and Welfare of the Child",
+  "link": "https://doi.org/10.25159/2522-3062/17864",
+  "author": "Robert Doya Nanima, Gift Gawanani Mauluka",
+  "summary": "<jats:p>Child labour is a complex and pressing issue across the globe. Africa has not been immune to this challenge, and it continues to deal with it in various spaces. This article argues that the approach of the African Committee of Experts on the Rights and Welfare of the Child (Committee or African Children’s Committee) is crucial in protecting the rights of children in conflict situations. Using a doctrinal research methodology, the authors analyse written documents through a process of identifying, selecting, retrieving, and interpreting various documents, both physical and electronic, to gain new insights. As such, following the introduction, they adopt working definitions of ‘child labour’ and ‘armed conflict’. This is followed by an evaluation of the normative guidance on Article 15 of the African Charter on the Rights and Welfare of the Child in the context of other relevant articles and a focus on the Committee’s use of Article 46 as a tool for developing persuasive jurisprudence. With insights on child labour statistics, the article provides an overview of the magnitude of the problem on a global scale. This is followed by an evaluation of the institutional positioning of the Committee and finally, an analysis of selected jurisprudential developments. The key finding is that the Committee may use Article 46 to bridge protection gaps, drawing on International Human Rights Law and Humanitarian Law to clarify child labour issues. The article provides recommendations for strengthening the implementation and effectiveness of Article 15.</jats:p>",
+  "date": "2026-04-13T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421366+00:00"
+ },
+ {
+  "id": "7131c16af410137d3009eb1cd59abc17024c5701",
+  "journal": "JLSD",
+  "title": "The Intersections Between Open Science and Intellectual Property Rights: Implications for Research Dissemination in African Universities",
+  "link": "https://doi.org/10.25159/2520-9515/19805",
+  "author": "Sibongile Ngwenya",
+  "summary": "<jats:p>While Africa has increasing interest in the internet and 4th industrial revolution technologies, it has minimal participation in the creation of scientific knowledge when compared to the Global North. Open science (OS) is a pivotal global response to achieving the Sustainable Development Goals (SDGs), as it is primarily focused on hastening the pace of scientific discovery and creating a culture of accountability to escalate public trust in science. In Africa, the implementation of the OS movement has been very slow due to, among others, poorly defined intellectual property right (IPR) frameworks governing research teams. However, very few studies comprehensively address the co-existence of OS and IPRs, even at a global scale. This article explores literature on OS in Africa, the relationship between OS and IPRs, and the implications for research dissemination in universities in Africa. The OS movement has the potential to impact Africa positively, but incompatibilities may arise between IPR and OS if the IPR frameworks are not properly defined as an essential tool to regulate OS. Fundamental premises should guide the value of an OS environment in African universities, such as affordable and easy sharing of, and access to, data, and engagement with all societal stakeholders to increase both effectiveness and sociopolitical validity. Universities in Africa must develop flexible models of science dissemination to transform the way of doing science and challenge old regulations, including the traditional IPR system.</jats:p>",
+  "date": "2026-04-13T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640558+00:00"
+ },
+ {
+  "id": "efbda904ff18051ed19c933abf8ff2213b6fee1a",
+  "journal": "SAJHR",
+  "title": "From words to consequences: Lexicology in judicial impeachment through the perspective of former judge president John Hlophe",
+  "link": "https://doi.org/10.1080/02587203.2026.2649736",
+  "author": "Ramekgwe Daniel Tjikila",
+  "summary": "",
+  "date": "2026-04-12T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580086+00:00"
+ },
+ {
+  "id": "1f674bdfb97cbd77a5199b0366e2984671784294",
+  "journal": "AJLS",
+  "title": "#ENDSARS: Public Protest against Human Rights Abuses, Police Brutality and Predatory Policing in Nigeria",
+  "link": "https://doi.org/10.1163/17087384-12340130",
+  "author": "Fidelia U. Nwome, Chijioke Egwu Ekumaoko, Ozioma Victoria Uchime",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Police brutality is a pervasive problem that impedes human rights in many societies. In Nigeria, the level of police brutality is alarmingly high, leaving citizens in fear of contact with the police. Beyond colonial legacies, factors such as poor funding and training, lack of accountability mechanisms, and inadequate punitive measures sustain the persistence of police brutality. This study interrogates the use of excessive force by Nigeria’s Special Anti-Robbery Squad (\n                    <jats:sc>SARS</jats:sc>\n                    ), which restricts public civic space and violates human rights. Using a qualitative methodology, and drawing from primary data collected from Amnesty International reports and interviews with key informants such as security agents, legal practitioners, and ordinary citizens, including victims of\n                    <jats:sc>SARS</jats:sc>\n                    brutality, the study highlights human rights abuses by the\n                    <jats:sc>SARS</jats:sc>\n                    . The findings indicate that\n                    <jats:sc>SARS</jats:sc>\n                    has conspicuously deviated from its original duty of combating crime to perpetrating and abetting crime and violence against the public, particularly Nigerian youth. This situation urgently demands redress.\n                  </jats:p>",
+  "date": "2026-04-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240359+00:00"
+ },
+ {
+  "id": "6facf9f60e28f4ab18d564c0b934472ccc1f4fbb",
+  "journal": "AJLS",
+  "title": "Nigerian Asylum Seekers in the United States: the Challenge of Credibility Assessments in the Age of Digital Evidence",
+  "link": "https://doi.org/10.1163/17087384-bja10120",
+  "author": "Philippa Osim Inyang",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Nigerian citizens fleeing insurgent violence or anti-\n                    <jats:sc>LGBTQ</jats:sc>\n                    + laws form a growing cohort of U.S. asylum applicants, yet their claims often turn on credibility assessments shaped by evidentiary gaps. Digital evidence, social media activity, messaging records, and online traces, offer new avenues for corroboration but also introduce risks of misinterpretation, privacy intrusion, and structural bias, particularly for individuals who conceal their identities to survive. This article investigates the U.S. legal framework governing credibility determinations under the\n                    <jats:sc>REAL ID</jats:sc>\n                    Act and key decisions such as\n                    <jats:italic>Matter of A-B-</jats:italic>\n                    , analysing how digital expectations intersect with the lived realities of applicants fleeing Boko Haram and persecution under Nigeria’s Same Sex Marriage (Prohibition) Act of 2013. Drawing on international human rights standards, including the\n                    <jats:sc>UNCHR</jats:sc>\n                    Handbook and the\n                    <jats:sc>ICCPR</jats:sc>\n                    , it argues that digital evidence has become a decisive, and sometimes distorting, force in asylum adjudication and offers reforms to ensure more context-sensitive and rights-consistent credibility assessments.\n                  </jats:p>",
+  "date": "2026-04-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240366+00:00"
+ },
+ {
+  "id": "9c5d43dbc50b48cbd736d5ed0805a7faa937d63f",
+  "journal": "AJLS",
+  "title": "Potential of Using Cultural Artefacts to Enhance the Critical Study of International Law in Africa",
+  "link": "https://doi.org/10.1163/17087384-12340131",
+  "author": "Babatunde Fagbayibo",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>This article examines the role cultural artefacts can play in counteracting the systemic erasure of non-European ideational iterations in international law. Cultural artefacts, in both physical and digital/pictorial forms, are valuable tools for enhancing learners’ cognitive abilities. In the context of international law, cultural artefacts can elicit the critique of hegemonic discourses, emphasising the imperative of engaging other disciplines in addressing critical issues, and encouraging the development of new terminologies for expanding the ideational parameters of the discipline. In order to achieve these lofty goals, international law teachers must be intentional about identifying the relevant artefacts and incorporating them into learning activities that equip learners with critical intellectual capacities. Such engagement not only centres learners’ cultural worldview in the learning environment but also makes them active thought leaders and change agents.</jats:p>",
+  "date": "2026-04-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240373+00:00"
+ },
+ {
+  "id": "893ed322344066ed9af30dcb3b42f5e3d01502f5",
+  "journal": "AJLS",
+  "title": "Arguing for Judicial Expropriation in Cases of Unenforceable Eviction Orders",
+  "link": "https://doi.org/10.1163/17087384-12340132",
+  "author": "Tanveer Rashid Jeewa",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Unlawful occupation has recently peaked due to the slow pace of South Africa’s provision of housing and the private sector’s inability to cater to poor and vulnerable people. When unlawful occupation is not curbed on private land, two rights are in conflict: the right of unlawful occupiers not to be arbitrarily evicted from their homes and the right of property owners not to be arbitrarily deprived of their property, except through the operation of a law of general application. Unlawful occupation creates a lacuna, as existing remedies often fail to resolve the conflict without unduly limiting the rights of the parties. Relying on the cases of\n                    <jats:italic>President and Another v Modderklip Boerdery (Pty) Ltd</jats:italic>\n                    and\n                    <jats:italic>Fischer v Persons Listed</jats:italic>\n                    , I argue that exceptional circumstances call for judicial expropriation, which is a just and equitable order under section 172(1)(b) of the Constitution that does not breach the doctrine of separation of powers.\n                  </jats:p>",
+  "date": "2026-04-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240380+00:00"
+ },
+ {
+  "id": "814e75591c78c042f6e39b9401b13edcacd65a52",
+  "journal": "AJLS",
+  "title": "Interface of Customary Institutions and State Laws in Rangeland Administration in Oromia, Ethiopia",
+  "link": "https://doi.org/10.1163/17087384-12340133",
+  "author": "Fekadu Beyene Kenee, Gadissa Tesfaye, Jebessa Teshome",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>This paper examines state-customary law relations with respect to rangeland administration among pastoralists and agro-pastoralists in the Oromia region of Ethiopia. It relies on socioeconomic data from four locations, using mixed methods to capture diverse perspectives. The findings indicate that customary-state relations have become complex due to land use change and state interventions. The strength and functioning of customary institutions vary across pastoral groups. While their role is declining over time, some still strongly influence rangeland administration. The factors that determine their influence include observance of indigenous norms, limited protection of pastoral systems that favour farming, resettlement of ethnic groups on territories claimed by others, certification of privately used lands, neglect of communal tenure, favouring women’s access to land, and promoting youth engagement in decision-making. The article stresses the importance of recognising customary authorities involved in the administration of rangeland resources, developing community bylaws, and empowering customary authorities to enable them to enforce communal land rights. It urges the adoption of mechanisms for state laws to accommodate customary laws, recognise youth empowerment, and promote women’s access to land and decision-making agency.</jats:p>",
+  "date": "2026-04-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240389+00:00"
  },
  {
   "id": "a7e2ea64eb62d7223f6651d7995ec302a4a2d570",
@@ -910,6 +1210,36 @@
   "first_seen": "2026-09-01T11:01:22.154844+00:00"
  },
  {
+  "id": "1ec39f609fe8d3640daa5233fbc0b8dd38c296a3",
+  "journal": "SAJHR",
+  "title": "Correction",
+  "link": "https://doi.org/10.1080/02587203.2026.2655448",
+  "author": "",
+  "summary": "",
+  "date": "2026-04-03T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580094+00:00"
+ },
+ {
+  "id": "c987a94a2e435692e567957f23fc0b7ca4bbd80e",
+  "journal": "SAPL",
+  "title": "Kenya’s Post-2010 Constitutional Amendments: Delimiting Parliamentary and Popular Initiative Amendments",
+  "link": "https://doi.org/10.25159/2522-6800/18697",
+  "author": "Leonard Muye Mwakuni",
+  "summary": "<jats:p>The Constitution of Kenya 2010 dedicates Chapter 16 (Articles 255, 256 and 257) to its amendment through parliamentary and popular initiatives. These initiatives are multi-staged with various processes and actors involved including the Kenyan people, the Independent Electoral and Boundaries Commission (IEBC), County Assemblies, Parliament (National Assembly and the Senate) and the President. The Kenyan experience shows that there have been several proposed amendments to the 2010 Constitution since 2013 that have all been unsuccessful. Questions have been raised including the constitutional remits of both parliamentary and popular initiative amendments. In certain instances, the superior courts have been called upon to determine this question by exercising their role of constitutional interpretation of the amendment provisions and determining the constitutionality of amendment processes and bills. This article critically analyses the composition and quorum of the IEBC in verifying popular initiatives and conducting national referenda, and the remits of both parliamentary and popular initiatives. It adopts a purposive interpretation of the constitutional amendment provisions using emerging jurisprudence from the superior courts, comparative jurisprudence and scholarly literature.</jats:p>",
+  "date": "2026-03-23T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635035+00:00"
+ },
+ {
+  "id": "06375e928c34267916a82f662128aa5430d6dd06",
+  "journal": "CILSA",
+  "title": "Pardons before the African Criminal Court: Shield for Impunity or Path to Justice?",
+  "link": "https://doi.org/10.25159/2522-3062/20538",
+  "author": "Prisca D. Mbezi",
+  "summary": "<jats:p>Pardons and commutations in international criminal law remain contested because they sit at the intersection of accountability, victims’ rights, reconciliation and political power. The article explores the implications of national pardons on international crimes, particularly through the lens of Article 46K of the 2014 Malabo Protocol, which aims to establish jurisdiction for the African Criminal Court (ACC). Since the Protocol has not yet entered into force, the article uses a predictive analysis to assess how Article 46K is likely to operate if the ACC becomes operational and begins enforcing sentences through state cooperation. The analysis indicates that Article 46K does not automatically recognise domestic pardons but necessitates a controlled post-conviction clemency process. Through a doctrinal approach, the study evaluates the potential impacts of such pardons on victims’ rights and the ACC’s credibility. Drawing on comparative international and regional jurisprudence and practice, the paper identifies the conditions under which post-conviction mitigation may be compatible with international criminal justice, and the safeguards required to prevent clemency from functioning as a vehicle for impunity. It ultimately posits that, unless operationalised through transparent criteria, victim-facing procedures and consistency with international obligations to investigate and punish serious crimes, reliance on domestic eligibility standards risks weakening the ACC’s credibility and deterrent function.</jats:p>",
+  "date": "2026-03-20T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421372+00:00"
+ },
+ {
   "id": "f5aa70ee8263fa8c9a1fd98cd0547cb7decc7899",
   "journal": "PELJ",
   "title": "The Collusion Hit a Soft Landing: A Currency Manipulation of the South African Rand Through Spot Market Trading",
@@ -938,6 +1268,16 @@
   "summary": "<p>Since the enactment of the National Credit Act 34 of 2005, there has been much inconsistency and confusion regarding the application of many of its provisions. From an interpretational perspective, section 129 has undoubtedly been one of the most controversial provisions in the Act. Section 129 (3) provides that a consumer may reinstate a credit agreement by settling the arrears, default and enforcement costs. Unfortunately, section 129 (3) has been extremely problematic in its interpretation and application - as it is unclear how and when this right can be exercised.</p> <p>The main challenges within sections 129 (3) and (4), such as the requirements for the right to come into effect, and the time when the right lapses, were considered and resolved by the Constitutional Court in <em>Nkata v FirstRand Bank </em>2016 (4) SA 257 (CC). The recent judgment of <em>Naidoo v Changing Tides 17 (Pty) Ltd and Others 1885/2009 KLD </em>has however exposed some other challenges with section 129 (3), such as whether the provision contains any time limitations as to when the right can be claimed, and whether a recapitalisation of the arrears constitutes a reinstatement. Given the importance of the right to reinstatement as a debt relief mechanism for consumers, clarity is urgently needed on the aspects regarding its application; hence, an amendment to section 129 (3) may be necessary to create this certainty.</p>",
   "date": "2026-03-17T22:00:00+00:00",
   "first_seen": "2026-09-01T11:01:14.205781+00:00"
+ },
+ {
+  "id": "2249debe73daa5b9d7ab748bcadf68164297101d",
+  "journal": "CILSA",
+  "title": "Through the Lens of International Law: Framing South African Eviction Paradigm as a Model for Namibia’s Domestic Eviction Law",
+  "link": "https://doi.org/10.25159/2522-3062/19731",
+  "author": "Sithelo Magagula",
+  "summary": "<jats:p>Article 11(1) of the International Covenant on Economic, Social, and Cultural Rights (ICESCR) read together with the Committee on Economic, Social, and Cultural Rights (CESCR) General Comment 7, protects occupiers against forced evictions and safeguards the right to adequate housing. Yet, despite Namibia’s status as a State Party to the ICESCR, its domestic eviction laws fall short of these protections, leaving many evictees homeless in the aftermath of eviction. This article argues that South African law offers a comprehensive eviction framework that Namibia could adopt as a model. Article 2(1) of the ICESCR read with CESCR General Comment 7, requires States Parties to develop legislative measures to realise the right to adequate housing under Article 11(1) of the ICESCR. This article positions South Africa’s jurisprudence under the Prevention of Illegal Eviction from and Unlawful Occupation of Land Act, as a domestic legislative framework that gives effect to Articles 2(1) and 11(1) of the ICESCR, and which Namibia could draw upon in formulating eviction legislation consistent with international standards.</jats:p>",
+  "date": "2026-03-13T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421378+00:00"
  },
  {
   "id": "1a2ab191ed9a6f8c25593337a98d31a5a848e0a0",
@@ -1080,6 +1420,76 @@
   "first_seen": "2026-09-01T11:01:22.154853+00:00"
  },
  {
+  "id": "e99b6afd60ad9bb1fc8c779d71808c5b9a03572d",
+  "journal": "Fundamina",
+  "title": "Township Politics: Struggles for a New South Africa – Mzwanele Mayekiso",
+  "link": "https://doi.org/10.47348/fund/v31/i2a5",
+  "author": "Ntando Sindane",
+  "summary": "<jats:p>None</jats:p>",
+  "date": "2026-01-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.749562+00:00"
+ },
+ {
+  "id": "c663a6f61e25f6c5040a0188e65f318c64d50b4e",
+  "journal": "Fundamina",
+  "title": "Revisiting the Infamous Pernkopf Anatomy Atlas – Historical Lessons for Medical Law and Ethics: Could Recent Events be Invoked to Justify the Selective use and Application of the Atlas in Medical Practice?",
+  "link": "https://doi.org/10.47348/fund/v31/i2a2",
+  "author": "Pieter Carstens, Chrislie Boers",
+  "summary": "<jats:p>The Pernkopf Topographical Anatomy of Man is widely regarded as one of the most anatomically precise atlases ever produced, yet it remains indelibly tainted by its origins in Nazi Germany and its reliance on the bodies of executed victims of the Third Reich. This article revisits the historical, ethical and legal context surrounding the compilation and continued existence of the Pernkopf Anatomy Atlas. It situates the Atlas within a broader history of medical experimentation, and the procurement of human remains, while distinguishing premodern practices from the systematic, state-sanctioned atrocities of Nazi medical science. Against this backdrop, the contribution critically examines the complicity of the medical and legal professions in legitimising gross violations of human dignity and bodily integrity. The article further engages with the longstanding international debate concerning the continued use, rejection or conditional acceptance of the Atlas in medical education and practice. Attention is paid to the ethical significance of the Nazi insignia embedded in the original illustrations and to the relationship between medical law and medical ethics when confronted with research derived from unlawful and unethical conduct. Considering recent developments and renewed scholarly engagement with the Atlas, the article considers whether a more nuanced and context-sensitive approach—short of outright prohibition—can be justified. It ultimately argues that any engagement with the Pernkopf Atlas must remain firmly grounded in historical accountability, ethical transparency and respect for the dignity of the victims.</jats:p>",
+  "date": "2026-01-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.749576+00:00"
+ },
+ {
+  "id": "59adcb126ce3537710b21c80564b1969d1ce79a3",
+  "journal": "Fundamina",
+  "title": "From Stage to Statute: The Historical Development of Performers’ Rights in South Africa",
+  "link": "https://doi.org/10.47348/fund/v31/i2a3",
+  "author": "Gretchen Jansen",
+  "summary": "<jats:p>This contribution traces the historical development of performers’ rights, with a particular focus on the South African legal context. Beginning with the first statutory recognition of performers’ rights in early twentieth-century Germany, it follows the gradual emergence of international instruments, from the Rome Convention to the Beijing Treaty, before examining how these frameworks influenced domestic developments in the United Kingdom, and, later, South Africa. The analysis reveals that while copyright law has historically prioritised the rights of authors and the protection of their works, the legal recognition of performers has remained secondary, often treated as peripheral to the core concerns of the intellectual property regime.\nIn South Africa, performers’ rights were first introduced by the Performers’ Protection Act 11 of 1967. Although modelled loosely on international norms, the Act provided a fragmented and limited form of protection, reflecting both colonial legal inheritance and a lack of engagement with international instruments. The contribution tracks the evolution of this legislative framework, including the proposed amendments that seek to modernise and expand the rights of performers in response to both technological change and international pressure. Drawing on legal history and comparative analysis, it assesses whether these reforms amount to a substantive shift in how performers’ protection is conceptualised in law.\nUltimately, the contribution argues that recognising the historical marginalisation of performers is essential to understanding the current moment of legal reform. A stronger and more coherent legal regime for performers’ rights in South Africa has the potential not only to correct past omissions, but also to support a more inclusive, equitable and culturally vibrant creative sector.</jats:p>",
+  "date": "2026-01-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.749584+00:00"
+ },
+ {
+  "id": "f1c5b3bed7604a9bed97a73d682f22f81ef4c9d7",
+  "journal": "Fundamina",
+  "title": "Jurisdictional Immunity in South Africa: Interpreting Section 2 of the Foreign States Immunities Act in Light of Article 6(2)(B) of the United Nations Convention on Jurisdictional Immunities of States and Their Property, 2004, and its Drafting History",
+  "link": "https://doi.org/10.47348/fund/v31/i2a4",
+  "author": "Jamil Ddamulira Mujuzi",
+  "summary": "<jats:p>In East Asian Consortium BV v MTN Group Limited the applicant sued the respondent in a South African court for allegedly bribing Iranian officials to award the latter a tender at the expense of the former. The respondents invoked section 2 of the Foreign States Immunities Act, 1981, to argue that South African courts did not have jurisdiction over the matter because the action was indirectly against the Iranian government which enjoyed jurisdictional immunity under article 6(2)(b) of the Immunities Convention, 2004. The majority of the court declined to interpret section 2 of the Foreign States Immunities Act in light of article 6(2)(b) of the Immunities Convention. In reaching this conclusion, the court relied on the United Kingdom Supreme Court’s decision in Belhaj v Straw, which held that the drafting history of article 6(2)(b), as well as state practices, showed that it is not customary international law, and that in the United Kingdom the Immunities Convention was not regarded as international law. In this article, the author argues to the contrary. By undertaking an in-depth analysis of the drafting history of article 6(2)(b) of the Immunities Convention and current state practices, the author argues that article 6(2)(b) of the Immunities Convention is international law (as understood by the South African Constitutional Court). Consequently, the court should have relied on it in interpreting section 2 of the Foreign States Immunities Act. It is also argued that a combined reading of the drafting history of article 6(2)(b) of the Immunities Convention and section 2(2) of the Foreign States Immunities Act shows that the court should have held that it did not have jurisdiction in the case. It is argued, further, that article 6(2)(b) is not limited to cases where a foreign state has legal interest in property but that it is applicable to interests, rights, property and activities. Furthermore, since the alleged bribery took place in Iran and the acts in qu",
+  "date": "2026-01-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.749593+00:00"
+ },
+ {
+  "id": "cc04d8e94864e60b464d66c205b77954ac3f8bac",
+  "journal": "Fundamina",
+  "title": "The Right to Self-Determination: A Consideration of Agitations for Selfgovernance by Ethnic Nationalities in Nigeria",
+  "link": "https://doi.org/10.47348/fund/v31/i2a1",
+  "author": "Marcus Ayodeji Araromi, Okunlade Isaac Adejumo",
+  "summary": "<jats:p>Self-determination is a political concept that, in some contexts, has found expression in the international politics of decolonising former colonial territories and carving a new state out of an existing one. This concept, furthermore, has been viewed as a political right that needs to be explored by various disgruntled ethnic groups to exit their mother-nations. The focus of this contribution is on interrogating the agitations of certain ethnic groups in Nigeria to secede from the country and to determine whether their agitations are justified. The authors consider some fundamental bases for these agitations and review the international stance on self-determination. The contribution adopts a historical, legal and analytical approach in its exploration of the concept of self-determination. Article 1 of the United Nations Charter asserts respect for the principle of equal rights and self-determination of peoples. In addition, Article 1 of the International Covenant on Civil and Political Rights, and Article 1 of the International Covenant on Economic, Social and Cultural Rights both affirm that “[a]ll peoples have the right of self-determination”. The idea of federating with other units is a matter of choice and cannot take place by force. However, choice is a factor that was conspicuously absent in the coagulation of different ethnic nationalities into one federal state in Nigeria. This contribution argues that the idea of “legitimate choice” in determining one’s political affiliation is the only veritable basis for merging two or more ethnic groups together as a sovereign nation.</jats:p>",
+  "date": "2026-01-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.749601+00:00"
+ },
+ {
+  "id": "8c454f7fe469254b50fd49235b881236bc834579",
+  "journal": "AJIC",
+  "title": "Attitudes towards mobile digital recordkeeping among smallholder sheep farmers in the Nama-Karoo Biome, South Africa",
+  "link": "https://doi.org/10.23962/ajic.i36.24980",
+  "author": "Vimbai Mucheri, Obvious Mapiye, Annelin Molotsi, Johann F. Kirsten",
+  "summary": "<jats:p>Mobile digital technologies can be enablers of improved sustainability in smallholder livestock production systems, yet their use for farm recordkeeping in such systems remains under-examined. This study investigated the existing recordkeeping practices, and attitudes towards a proposed mobile digital recordkeeping application (app), among 53 smallholder sheep farmers in the Eden and Central Karoo Districts of South Africa’s Nama-Karoo Biome. Data collected through a semi-structured questionnaire revealed that the farmers’ recordkeeping relied mainly on memory (43%), loose paper notes (43%), and organised notebooks (25%). Only 8% used computer-based records. Nearly 90% of respondents expressed their willingness to adopt the proposed mobile recordkeeping app, and the vast majority agreed that the app could improve their recordkeeping (90% agreement) and decision-making (87% agreement). Opinions on the app’s user-friendliness were more mixed, with 66% agreeing that it was user-friendly, 25% saying they were undecided, and 8% disagreeing. With respect to the potential limitations of the app, just over half (51%) of the farmers cited lack of digital skills and training as a limitation, with smaller percentages pointing to limitations posed by poor network connectivity (26%) and insufficient cashflow (23%) to buy mobile data. The findings thus point to the need for improved app user-friendliness, increased digital skills development, and, to a lesser extent, better network connectivity and more affordable data, if there is to be widespread adoption of the mobile digital recordkeeping app among the farmers who participated in the study.</jats:p>",
+  "date": "2025-12-31T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097376+00:00"
+ },
+ {
+  "id": "2ab1e28b54f3b17a5242ab8b649bf16b94db0074",
+  "journal": "AJIC",
+  "title": "RETRACTED: How web-interface design impacts task performance, cognitive load, and user experience (UX): An exploration with a cohort of South African university students",
+  "link": "https://doi.org/10.23962/ajic.i36.23095",
+  "author": "André Delwyn Gopal",
+  "summary": "<jats:p>THIS ARTICLE WAS RETRACTED BY THE AUTHOR ON 9 FEBRUARY 2026: This study explores how differences in web-interface design can generate variations in users’ task performance, cognitive load, and user experience (UX). In the study, a cohort of 32 purposively selected South African university students aged 18–24 was presented with an information-seeking and problem-solving task—calculation of the calories they should consume per day based on their age, gender, height, weight, and activity level—and they were asked to choose among several possible websites/pages to complete the task. A mix of quantitative and qualitative data was collected to explore the participants’ web-interface choices, task performance (speed and success), cognitive load, and UX. The majority of participants (84.4%) selected the most visually rich, interactive, tool-based web interface to complete the task, and these participants completed the task faster, with lower cognitive effort and with higher satisfaction, than the participants who chose a site with a less visually compelling and interactive interface. These findings point to the need for disseminators of educational and public-service information targeted at “digital natives” to prioritise the use of visually rich, interactive, tool-based web interfaces for their online materials.</jats:p>",
+  "date": "2025-12-31T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097383+00:00"
+ },
+ {
   "id": "2705e02028745103891ccaf23ad9202093d001ca",
   "journal": "Obiter",
   "title": "Does the Genetic Link Requirement in Surrogacy Contracts Serve a Rational Purpose? KB v Minister of Social Development [2023] ZAMPMBHC 12; 2024 (5) SA 30 (SCA)",
@@ -1148,6 +1558,76 @@
   "summary": "<p>The employment relationship is reciprocal in nature in that it entails obligations for both parties. The employee has an obligation to work, and the employer has a duty to pay remuneration. If the employee does not render services for various reasons, the employer is entitled to withhold remuneration. Moreover, there are cases where the employer overpays what is due to an employee and is entitled to recoup the overpayments. The question is how to go about this within the parameters of the law. This article discusses the common-law principle of “no work, no pay”, the legislative protections against arbitrary deductions from employees’ remuneration, and how the courts have interpreted these. The discussion shows that there is much misunderstanding and uncertainty among both employers and employees on how the issue of deductions must be handled, fuelling exasperation for both parties. Fortunately, the pronouncements of the courts have given us certain principles to work with when considering the issue of deductions from employee remuneration.</p>",
   "date": "2025-12-30T22:00:00+00:00",
   "first_seen": "2026-09-01T11:01:22.154920+00:00"
+ },
+ {
+  "id": "ac5b04a8ac1578b98a340f89bb1b92046804dae3",
+  "journal": "SAPL",
+  "title": "Land Matters and Rural Development:2024",
+  "link": "https://doi.org/10.25159/2522-6800/20945",
+  "author": "Ebrezia Patricia Johnson, Juanita M Pienaar",
+  "summary": "<jats:p>The most important land-related developments in the course of 2024 are set out. In the report period much activity occurred within the legislative domain by way of formulating new measures on the one hand and amending and extending existing legislation, on the other. Interesting and important judgments were handed down, especially by the Supreme Court of Appeal, in relation to restitution. The urgent need for land for residential purposes, especially within urban and peri-urban areas, was again highlighted in unlawful occupation and eviction judgments. Tenure security in rural areas remains elusive, with continued eviction of rural dwellers from farm and rural land, with barriers to accessing communal land by women remaining prevalent. The note deals with redistribution, restitution and tenure reform developments in the land reform arena, coupled with developments providing for the operation of the Land Court, amendments with respect to deeds and registries and regulations dealing with Old Order Rights.</jats:p>",
+  "date": "2025-12-19T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635065+00:00"
+ },
+ {
+  "id": "9b512e64316417c42d4c5e3495961dbda9d864e8",
+  "journal": "SAPL",
+  "title": "‘Bona Fide Inadvertent Error’ in Section 222 of the Tax Administration Act 28 of 2011. An Analysis of Two Recent Cases: CSARS v The Thistle Trust (2023) (2) SA 120 (SCA) and Commissioner for the South Africa Revenue Service v Coronation Investment Management SA (Pty) Ltd (2023) 2 All SA 44 (SCA)",
+  "link": "https://doi.org/10.25159/2522-6800/19372",
+  "author": "Chillion Hezelet Ncube",
+  "summary": "<jats:p>The aim of this case note is to discuss the contentious issue relating to the interpretation of the term ‘bona fide inadvertent error’ in the context of understatement. Two recent cases—CSARS v The Thistle Trust (2023) (2) SA 120 (SCA) (7 November 2022) and CSARS v Coronation Investment Management SA (Pty) Ltd (2023) 2 AII SA 44 (SCA) (7 February 2023)—will be discussed against the backdrop of relevant case law and literature. This case note argues that the Tax Administration Act should be amended to provide greater protection to taxpayers who rely on the advice of tax practitioners when submitting returns to the South African Revenue Service (SARS). It further contends that the definitions of ‘understatement’ and ‘bona fide inadvertent error’ in SARS’s Formal Guide to Understatement Penalties (Issue 2, 18 April 2018) should be revised to reflect the broader interpretation adopted by the Supreme Court of Appeal in the Thistle Trust and Coronation judgments.</jats:p>",
+  "date": "2025-12-15T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635074+00:00"
+ },
+ {
+  "id": "e17869e72e5778d8e17fc1410398cdcc795febdd",
+  "journal": "CILSA",
+  "title": "Trade Union Recognition and the Concepts of ‘Workplace’ in South Africa and the ‘Appropriate Bargaining Unit’ in Canada: Some Comparative Insights into Bargaining Constituencies and Protection of Minority Interests",
+  "link": "https://doi.org/10.25159/2522-3062/19686",
+  "author": "Wilhelmina Germishuys-Burchell",
+  "summary": "<jats:p>This article identifies challenges surrounding the legal regulation of trade union recognition with specific reference to the concept of ‘workplace’ as the constituency within which the majority rules. The definition of ‘workplace’ in the South African Labour Relations Act 66 of 1995 creates the potential for minority interests to be ignored and hinders even majority unions seeking recognition, especially where the workplace is dispersed across different locations. This predicament, and the harsh effect and potential dangers of excluding minority voices in the labour context, has also been recognised by the Constitutional Court. This article considers two factors central to Canada’s independently determined ‘appropriate bargaining unit’: accommodating special or significant minority interests and addressing recognition in the context of multi-location employers. Although the Canadian legal system (like the South African one) favours majority unions, this article seeks to show Canadian law shows greater awareness of the potential unfairness of unqualified or misapplied majoritarianism. It highlights Canada’s independently determined bargaining unit as the constituency for majority rule and concludes that this model may offer a more appropriate framework for South Africa.</jats:p>",
+  "date": "2025-12-15T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421385+00:00"
+ },
+ {
+  "id": "8312dd12ea08074841a56104af5cc9181945ce94",
+  "journal": "AJIC",
+  "title": "Digital governance for democratic integrity in West African electoral contexts",
+  "link": "https://doi.org/10.23962/ajic.i36.24998",
+  "author": "Zara Schroeder, Marie Batista, Scott Timcke",
+  "summary": "<jats:p>Digital technologies are transforming electoral processes across West Africa. Social media, digital ID systems, and online results interfaces offer new avenues for transparency and civic participation, but they also threaten democratic integrity. This article examines the region’s digital-political ecosystem, focusing on how digital platforms are shaping electoral communication in contexts marked by democratic fragility, ethnic divisions, and political instability. Biometric voter registration and electronic results transmission have improved electoral administration, yet at the same time social-media disinformation, internet shutdowns, and surveillance undermine fundamental democratic freedoms. This article also draws attention to emerging digital-governance frameworks that are applicable in West Africa, including UNESCO’s 2025 Model Policy Framework for Information Integrity in West Africa and the Sahel and the AAEA’s 2023 Principles and Guidelines for the Use of Digital and Social Media in Elections in Africa. The effectiveness of digital governance, which requires a balancing of state security concerns against protections for human rights and free expression, will play a central role in determining whether West Africa’s digital transformation strengthens or undermines electoral legitimacy and political stability.</jats:p>",
+  "date": "2025-12-15T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097392+00:00"
+ },
+ {
+  "id": "c802a10112ae18651f693da043f25827d9b675b2",
+  "journal": "AJIC",
+  "title": "Roles of a WhatsApp group in fostering a Kenyan agricultural community of practice (CoP)",
+  "link": "https://doi.org/10.23962/ajic.i36.20902",
+  "author": "John Kimotho",
+  "summary": "<jats:p>WhatsApp groups have been found to serve as valuable platforms for livelihood development in numerous African settings and also beyond the continent. This study explores the roles played by a Kenyan agricultural WhatsApp group, the Agri-Society Network, in supporting engagement and collaboration by its users. The study surveyed 174 group members, via an online questionnaire, in order to explore the members’ experiences of, and views on, participation in the group. The findings were analysed through the lens of the community of practice (CoP) framework (Wenger, 1998), and specifically the framework’s dimensions of mutual engagement, joint enterprise, and shared repertoire. The survey found that the majority of the group members used the group daily or several times a week; that the primary uses of the group were to share information/resources and to ask questions; that the most popular discussion categories were general peer discussions, followed by discussions of farming techniques or marketing opportunities; and that the main perceived benefits were networking opportunities, problem-solving, skills development, and market access. The main challenges faced by group users were the lack of reliable connectivity and the sharing of irrelevant content. The findings indicate the presence of strong elements of mutual engagement, joint enterprise, and shared repertoire, thus indicating that the Agri-Society Network WhatsApp group can be regarded as an example of a CoP.</jats:p>",
+  "date": "2025-12-15T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097399+00:00"
+ },
+ {
+  "id": "40a1a24001fa07d81bbb6c8db9f7f36e337e5622",
+  "journal": "AJIC",
+  "title": "Success and failure of ICT for economic development (ICT4EcD) projects in the Global South: Scoping review of underlying factors",
+  "link": "https://doi.org/10.23962/ajic.i36.24415",
+  "author": "Nonkazimulo Nzuza, Ingrid Siebörger",
+  "summary": "<jats:p>Information and communication technology for economic development (ICT4EcD) initiatives in Global Southern contexts encounter numerous challenges that can hinder the achievement of stated project objectives. Available evidence suggests that these projects tend to end in failure more often than success. This scoping review identified the factors from the existing literature that can contribute to the success or failure of such initiatives. The study employed the Joanna Briggs Institute (JBI) scoping review methodology to identify and analyse 20 articles. The following seven interconnected factors were identified as contributing to project success: collaboration and partnerships; careful policy and planning; contextual understanding; capacity-building and sustainability measures; a community-centric approach; appropriate design and alignment; and incremental implementation. The seven factors contributing to project failure were identified as: a lack of contextual understanding; policy and planning deficiencies; inadequate capacity-building and sustainability measures; resource and dependency challenges; a lack of user participation; harmful power dynamics; and a limited socio-cultural understanding. The findings reveal the multiple complexities at play in ICT4EcD initiatives in the Global South, with success factors and failure factors often interconnecting and thus potentially counteracting each other. Also revealed is the critical significance of contextual understanding in determining whether a project succeeds or fails. While the presence of contextual understanding is not a guarantee of project success, its absence tends to exacerbate multiple negative factors, increasing the likelihood of project failure.</jats:p>",
+  "date": "2025-12-15T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097407+00:00"
+ },
+ {
+  "id": "0fdc77c495d63b452ac9c470dc9c767210416447",
+  "journal": "AJIC",
+  "title": "Factors influencing South African consumer acceptance of marketers’ use of human digital twins (HDTs)",
+  "link": "https://doi.org/10.23962/ajic.i36.24055",
+  "author": "Morne Botha, Margaret Cullen, André Calitz",
+  "summary": "<jats:p>Human digital twins (HDTs) are virtual, data-driven consumer replicas that are generated by AI and used by marketers to analyse and predict consumer behaviours. By collating large amounts of personalised data on the online behaviour of specific consumers, an HDT facilitates sophisticated modelling of those individuals’ preferences and potential future choices, thus assisting marketers in determining which consumer to target with product offerings. This study aimed to identify the factors that may influence South African consumers’ acceptance of HDT use for marketing purposes. A cohort of 121 adults was recruited to complete a Likert-scale survey comprising statements linked to five factors that could influence a consumer’s acceptance of HDT use. Two of the tested factors, namely perceived usefulness and perceived ease of use, were drawn from the technology acceptance model (TAM), with three additional factors, namely knowledge, trust, and technological proficiency, added based on constructs present elsewhere in the technology-acceptance literature. Statistical analysis of the survey responses found that all five factors had statistically significant positive relationships with customer acceptance of HDT use.\n </jats:p>",
+  "date": "2025-12-15T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097416+00:00"
  },
  {
   "id": "fb4a121653254fc355139477290021a3e168a0c5",
@@ -1278,6 +1758,116 @@
   "summary": "<p style=\"font-weight: 400;\">This article investigates the intersection between critical theory and hermeneutics, examining whether Hans-Georg Gadamer’s aesthetic philosophy – especially his critique of Kantian aesthetics – might offer an ontological alternative to the culture industry critique developed by Theodor Adorno and Max Horkheimer. Gadamer reimagines aesthetic experience as a participatory event of understanding, rooted in the ontological seriousness of play (<em>Spiel</em>), in contrast to the Frankfurt School, which contends that art under capitalism becomes commodified and bereft of critical potential. His paradigm suggests that artworks reveal truth through dialogical involvement, challenging Kantian “aesthetic consciousness” as a detached, disinterested subject. The article proposes that Gadamer reframes the question of aesthetic critique by foregrounding tradition, interpretation, and historical consciousness. In doing so, it invites reflection on how art might resist commodification and sustain critical possibilities, even within the structures of digital capitalism, by renewing attention to the interpretive act as a space of truth-making.</p>",
   "date": "2025-12-11T22:00:00+00:00",
   "first_seen": "2026-09-01T11:13:55.757520+00:00"
+ },
+ {
+  "id": "2166c318d7ac96d66b1d6830e3ca43a79dbc5f0d",
+  "journal": "CILSA",
+  "title": "Implications of Brexit for the SADC–EU Economic Partnership Agreement States",
+  "link": "https://doi.org/10.25159/2522-3062/18943",
+  "author": "Thabo Khumalo, Amos Saurombe",
+  "summary": "<jats:p>This article explores the implications of Brexit on the Southern African Development Community (SADC) states. Brexit refers to the withdrawal process of the United Kingdom (UK) from the European Union (EU) according to Article 50 of the Treaty on the EU, which regulates the withdrawal process of any member state. Brexit had several other global and geopolitical consequences, for example, the entry into the Southern African Customs Union and Mozambique–UK Economic Partnership Agreement (EPA). This agreement was entered into amid statements of a return of protectionism. This article explores whether this agreement has changed the fundamental nature of regional trade agreements to make these agreements development friendly. It finds that the UK sought to replicate the trade benefits it enjoyed as a member of the EU in its regional trade agreements. The agreement has introduced a few changes that have allowed the Southern African Customs Union and Mozambique states to claw back some lost policy space. However, the development implications of the agreement are not that much better than the SADC–EU EPA. The systemic issues which plague the SADC–EU EPA, such as the lack of financial resources and infrastructure, have remained unresolved.</jats:p>",
+  "date": "2025-12-11T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421391+00:00"
+ },
+ {
+  "id": "4d4e949d49b39db7c1950fc3cbe23e3befcd6320",
+  "journal": "JLSD",
+  "title": "International Interdisciplinary Security of Land Tenure",
+  "link": "https://doi.org/10.25159/2520-9515/20745",
+  "author": "Anthea-lee September Van Huffel, Zsa-Zsa Boggenpoel",
+  "summary": "",
+  "date": "2025-12-11T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640579+00:00"
+ },
+ {
+  "id": "ec8723a8b5855aee203c77e95e069c7355f09c25",
+  "journal": "JLSD",
+  "title": "Decriminalising “Sex Work” under the Lens of Transformative Constitutionalism: A Commentary on South Africa’s Criminal Law (Sexual Offences and Related Matters) Amendment Bill, 2022",
+  "link": "https://doi.org/10.25159/2520-9515/19842",
+  "author": "Nomthandazo Ntlama-Makhanya",
+  "summary": "<jats:p>This commentary was stimulated by the publication of Notice 1509 of 2022 inviting public comments on the Criminal Law (Sexual Offences and Related Matters) Amendment Bill, 2022 to repeal the Sexual Offences Act 23 of 1957 and section 11 of the Criminal Law (Sexual Offences and Related Matters) Amendment Act 32 of 2007. The purpose is to decriminalise the sale and purchase of adult sexual services including the retrospective application of criminal proceedings that were instituted before the commencement of this Act. Constitutional concerns have been raised against the Sexual Offences Bill-22, and the state has been taken to court to facilitate its promulgation. The National Prosecuting Authority has also issued a moratorium on the prosecution of people selling sexual services until the outcome of the court processes. This is still a live matter that continues to impact on the South African government’s 7th administration despite its passage during the 6th administration. Any reference to the previous ministers and the Department of Justice and Constitutional Development is still of equal application. This commentary argues against the selling of sexual services for profit under the lens of transformative constitutionalism. It classifies the selling of sexual services for profit as “commercial sex” and does not consider it as “work” within the framework of human rights. It is not a comparative study and is limited to the South African context.</jats:p>",
+  "date": "2025-12-11T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640586+00:00"
+ },
+ {
+  "id": "432604fc30e9458056a4e018f1de9e3e6c5fd665",
+  "journal": "CILSA",
+  "title": "Online Dispute Resolution in the Context of the African Continental Free Trade Agreement Protocol on Digital Trade",
+  "link": "https://doi.org/10.25159/2522-3062/19083",
+  "author": "Robin Cupido",
+  "summary": "<jats:p>The African Continental Free Trade Agreement was adopted in 2018 to establish the African Continental Free Trade Area. It introduced various provisions aimed at supporting the various aspects of such establishment, including the promotion of an intra-African digital economy. The latter goal was achieved through the adoption of the Protocol to the Agreement Establishing the African Continental Free Trade Area on Digital Trade (DTP) in 2024. The purpose of the DTP is to support and enable digital trade in Africa, promoting sustainable socio-economic development and the eventual digital transformation of the continent. One of the ways in which digital trade in Africa is to be supported is through the establishment of a regulatory framework to govern all aspects of digital trade, from pre-contractual negotiations to the resolution of disputes arising from such trade. In respect of the latter, it is suggested that there is room for a dispute resolution system outside of traditional litigation, one that is specifically suited to the online environment. Online Dispute Resolution is suggested as a system that is flexible and cost-effective enough to resolve cross-border online trades without the need to traverse jurisdictional rules and foreign legal systems. This work contains an examination of the DTP and a consideration of whether ODR could find application in Africa, subject to its provisions. The leading African countries in information and communications technology are also assessed to see whether the continent is ready to introduce ODR as a means of supporting the aims of the DTP.</jats:p>",
+  "date": "2025-12-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421398+00:00"
+ },
+ {
+  "id": "4085303613f5479381eb6fd023034353a35223a7",
+  "journal": "JLSD",
+  "title": "Digital Health Innovations: Transforming Healthcare Access in sub-Saharan Africa",
+  "link": "https://doi.org/10.25159/2520-9515/18989",
+  "author": "Ayobami Precious Adekola",
+  "summary": "<jats:p>Sub-Saharan Africa (SSA) faces persistent challenges in access to health care due to resource shortages, weak infrastructure, and geographical barriers, which disproportionately affect vulnerable populations. Digital health innovations offer promising solutions to these inequities. The purpose of this study is to examine how digital technologies can be leveraged to advance Sustainable Development Goal 3, ensuring healthy lives and well-being for all by improving healthcare access and equity in SSA. Using the social determinants of health (SDH) framework, this study conducted an integrative literature review using the PRISMA guidelines. Peer-reviewed articles, government reports, and relevant literature published between 2013 and 2024 were identified in PubMed, ScienceDirect, Scopus, Africa Journals Online, Google Scholar, and the Directory of Open Access Journals. Of the initial 985 records from database searches and 93 from other sources, 245 sources were left after removing duplicates. Further screening yielded 75 full-text articles, of which 62 were excluded for various reasons, leaving 13 studies for qualitative synthesis. Findings reveal that digital health can enhance healthcare delivery in underserved areas by enabling remote care and improving system efficiency, but its adoption relies on policy support, infrastructure, and community engagement. Barriers include low digital literacy, regulatory weaknesses, infrastructure gaps, and data privacy concerns. Sustainability demands integration into national strategies, stronger health information systems, and sustainable financing, alongside ethical and legal frameworks on equity and data governance. While digital health holds transformative potential in SSA, decisive policy action is essential to realise equitable and just healthcare access.</jats:p>",
+  "date": "2025-12-09T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640592+00:00"
+ },
+ {
+  "id": "17718217656ce5a6e224a584a3497d10a24ea645",
+  "journal": "CILSA",
+  "title": "Activating Corporate Human Rights Accountability Standards in Africa: Lessons from Europe for the African Context",
+  "link": "https://doi.org/10.25159/2522-3062/16416",
+  "author": "Chairman Okoloise",
+  "summary": "<jats:p>With the escalating global demand for corporate human rights accountability, ongoing debates about the nature and extent of international corporate regulation have often left the issue of enforceable remedies for victims of corporate abuses at the supranational level unresolved. This paper examines the challenges of addressing abuses in the business context, by exploring the potential for a robust regional framework for corporate human rights accountability in Africa. Employing a comparative approach to the regulation of corporate human rights abuses in the European Union and Africa, the paper scrutinises the normative and institutional authority of the African Union and its human rights monitoring mechanisms that could be relevant to addressing corporate violations‌—albeit indirectly. The paper underscores the opportunity to establish standards for corporate human rights accountability at the regional level by leveraging these gaps for effective enforcement.</jats:p>",
+  "date": "2025-12-05T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421404+00:00"
+ },
+ {
+  "id": "2c974932cc4d87114b3b24c306245018751c4cc3",
+  "journal": "CILSA",
+  "title": "A Comparative Assessment of the Soundness of Financial Governance Systems for the Oversight of Mobile Money Services in Zimbabwe and South Africa",
+  "link": "https://doi.org/10.25159/2522-3062/18000",
+  "author": "Charles Kamunjoma, Patrick Osode",
+  "summary": "<jats:p>In an unprecedented move, Zimbabwe announced plans in May 2024 to allow mobile money agents to operate again after a 2020 ban, suggesting a shift in its regulatory approach. The country’s mobile money regulatory framework has been criticised for lacking a comprehensive structure to promote financial inclusion. Literature identifies three regulatory approaches in Zimbabwe—wait-and-see, test-and-learn and risk-based—but focuses on applying traditional banking regulations, overlooking how governmental decisions are made. This article begins from the premise that Zimbabwe’s approach to mobile money regulation follows a top-down governance model, creating fertile ground for state and regulatory capture. In pursuit of specific objectives to identify regulatory best practices and weaknesses in top-down governance approaches to mobile money regulation, a comparative analysis of Zimbabwe’s and South Africa’s financial sector governance frameworks for the oversight of mobile money services is presented. The analysis finds that South Africa’s governance of mobile money is stronger than Zimbabwe’s, reflecting principles of accountability, checks and balances and public participation. This article makes recommendations for Zimbabwe to adopt a robust oversight framework that supports financial inclusion while safeguarding market integrity.</jats:p>",
+  "date": "2025-12-05T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421411+00:00"
+ },
+ {
+  "id": "5766075384f40788f5b2ec7aa61dc329e98ccdf6",
+  "journal": "AJLS",
+  "title": "Introduction to the Special Issue",
+  "link": "https://doi.org/10.1163/17087384-12340127",
+  "author": "Fatima Osman, Anthony Diala",
+  "summary": "",
+  "date": "2025-12-04T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240398+00:00"
+ },
+ {
+  "id": "271def70c926b505e97b1c1294aaa0a14117b671",
+  "journal": "AJLS",
+  "title": "The Continued Struggle of Customary Law Wives for Recognition of Their Inheritance Rights in South Africa",
+  "link": "https://doi.org/10.1163/17087384-12340126",
+  "author": "Charlene May, Khensani Motileni, Senamile Madlala",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Twenty years after the landmark Constitutional Court’s judgment in\n                    <jats:italic>Bhe and Others v Khayelitsha Magistrate and Others</jats:italic>\n                    , which declared the exclusion of women from inheritance under customary law unconstitutional, women married under customary law in South Africa continue to face systemic discrimination. Drawing on the experiences of attorneys at the Women’s Legal Centre, this paper explores how patriarchal norms persist in shaping living customary law, particularly in the context of inheritance. Despite legislative reforms such as the Recognition of Customary Marriages Act 120 of 1998, women often encounter legal and bureaucratic barriers when asserting their inheritance rights following the death of a spouse. The registration requirements under the Act have placed a disproportionate burden on women, especially in proving the existence of a valid marriage. This paper critically examines how the codification of living customary law has contributed to ongoing gendered discrimination, and how jurisprudence and policy frameworks have failed to fully realise the constitutional promise of equality and dignity. It argues for legislative reform and an intersectional feminist approach to ensure substantive equality for women in customary marriages and to dismantle the legacy of male primogeniture.\n                  </jats:p>",
+  "date": "2025-12-04T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240408+00:00"
+ },
+ {
+  "id": "1bbef1d22d9c881a30899f640c3eba752ab75999",
+  "journal": "AJLS",
+  "title": "Beyond Bhe – Examining the Impact of Bhe v Magistrate Khayelitsha on the Customary Law of Succession and Gender Equality",
+  "link": "https://doi.org/10.1163/17087384-12340125",
+  "author": "Tebello Matsela",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    In societies where customary law interacts with Western legal principles, cultural conflicts show how deeply law and society affect each other. They reveal how social beliefs and practices shape legal rules and how those rules, in turn, shape how people behave and how society is organised. This tension complicates efforts to harmonise legal frameworks across Africa, with South Africa standing as a poignant example. The impact of\n                    <jats:italic>Bhe v Magistrate, Khayelitsha, Shibi v Sithole, South African Human Rights Commission v President of the Republic of South Africa</jats:italic>\n                    (2005 1\n                    <jats:sc>SA</jats:sc>\n                    580 (\n                    <jats:sc>CC</jats:sc>\n                    ) twenty years later, reveals an ongoing challenge where customary law rules of succession have been weakened by the dominant application of Western values inherited from colonial and apartheid-era legal systems in addressing customary law issues. This has disrupted the delicate balance between cultural rights and gender equality, particularly for women governed by customary law. This article challenges the prevailing narrative, arguing that instead of portraying customary succession laws as inherently unequal, patriarchal, and restrictive, as seen in\n                    <jats:italic>Bhe,</jats:italic>\n                    the courts and legislature should have reformed these laws through customary institutions and mechanisms to align with the Constitution. Relying on Western understandings of legal concepts of equality alone fails to recognise that culture and equality can coexist without one being sacrificed for the other. A more nuanced approach is needed, acknowledging their interrelationship within the constitutional framework.\n                  </jats:p>",
+  "date": "2025-12-04T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240415+00:00"
+ },
+ {
+  "id": "2b19bca119120698a41a59c4f82f097f55e72b28",
+  "journal": "AJLS",
+  "title": "The Challenges of Recognising and Formalising Traditional Laws",
+  "link": "https://doi.org/10.1163/17087384-12340123",
+  "author": "Jan G. Erk",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    As the study of traditional law and governance across the various jurisdictions of the continent now moves into the mainstream\n                    <jats:underline>,</jats:underline>\n                    there is a chance to expand the focus to an earlier and now mostly forgotten episode of an ambitious, but ultimately unsuccessful, attempt to identify, recognise, and apply the various systems of traditional law practices across the entire African continent. Using historical records and official reports from the time-period, the paper seeks to distil and expose the various lessons that ten years of the pan-African Restatement of African Law Project (\n                    <jats:sc>RALP</jats:sc>\n                    ) presents. The paper identifies four challenges of recognition and formalisation that the\n                    <jats:sc>RALP</jats:sc>\n                    sought to address (preference for integrated or separate legal systems; restatement or codification of traditional laws; how to reconcile different legal/bureaucratic traditions and specialisations; applicability outside the territories of the community in question). The paper concludes with challenges that were not addressed by\n                    <jats:sc>RALP</jats:sc>\n                    .\n                  </jats:p>",
+  "date": "2025-12-04T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240422+00:00"
  },
  {
   "id": "6d6f2b4ae0b44c9a8d65f3bc36db33887ac4ae18",
@@ -2040,6 +2630,36 @@
   "first_seen": "2026-09-01T11:01:16.640664+00:00"
  },
  {
+  "id": "f601ac03279b0bde3eddb3e57d6f5710b826a3d2",
+  "journal": "JLSD",
+  "title": "Feminism: Women and Just Energy Transition in the Global South",
+  "link": "https://doi.org/10.25159/2520-9515/17278",
+  "author": "Bright Benjamin Nkrumah",
+  "summary": "<jats:p>I examine two aspects of feminism and the fossil fuel industry in the Global South. The first of these deals with discrimination against women in the fossil fuel industry. It considers how the gradual transition to renewable energy without adequate safety nets will exacerbate the socioeconomic plight of the women who are dependent on the fossil fuel industry. The second aspect considers the limited advocacy by the feminist movement to agitate for economic policies that ensure that the energy transition enhances gender relations and the welfare of women. The methodology adopted is a critical analysis of primary and secondary literature and a case study to illustrate the economic condition of women in the post-fossil fuel era. This approach is used to shed light on the weakened position of women in the energy sector. The research relies on eco-socialist feminism theory as the foundational concept. It is observed that, notwithstanding the plethora of regional and (inter)national human rights instruments that seek to empower women, this demography is still marginalised. A disproportionate percentage is somewhat left behind in the movement towards green energy and sustainable development. To that end, suggestions are made on how women could exert their agency and voice in the energy transition process.</jats:p>",
+  "date": "2025-12-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640599+00:00"
+ },
+ {
+  "id": "cf7b0886ec1fee659298cbf929522bedce59e03f",
+  "journal": "CILSA",
+  "title": "The Quest for Secession by Nigeria’s Igbo Indigenous People and the Right to Self-Determination in International Law",
+  "link": "https://doi.org/10.25159/2522-3062/18070",
+  "author": "Gabriel Emeasoba",
+  "summary": "<jats:p>The right to self-determination is important in international law. Although the details of its content, scope and application have always been contested from its earliest adoption, it has been accepted that self-determination is a dynamic concept, which has assumed different meanings in different contexts. Consequently, while the right to self-determination in the context of decolonisation was conterminous with the external form of self-determination, in the post-colonial era, the right to self-determination has assumed a new ‘internal’ meaning under which ‘indigenous peoples’ in the social, cultural and ethnological sense, can claim a right to political autonomy, representation, participation and decision-making, especially in matters that affect them. As a result, this article argues that the strict identification of the right to self-determination with political independence from a sovereign state by secessionist groups (especially, groups representing the Nigerian Igbo ethnic tribe) and some academic scholars in Nigeria is ill-conceived, reductionist, and lacks both legal validity and practical merit. It suggests that embracing the internal form of self-determination potentially promises the best path to realising self-determination and progressive development for sub-national entities in Nigeria. The article adopts the doctrinal and comparative methods of legal analysis.</jats:p>",
+  "date": "2025-11-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421417+00:00"
+ },
+ {
+  "id": "666d8cc4fd07b0496f939c8e023f068fe8d11728",
+  "journal": "CILSA",
+  "title": "Möllers TMJ and Van der Linde K (eds), On the Fourth Industrial Revolution—Legal Perspectives from Germany and South Africa 2024",
+  "link": "https://doi.org/10.25159/2522-3062/20849",
+  "author": "Sieg Eiselen",
+  "summary": "",
+  "date": "2025-11-17T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421423+00:00"
+ },
+ {
   "id": "08081836dbc80a68f95c5deb2e2c8b49ff260503",
   "journal": "JJS",
   "title": "PRIVATE PROSECUTION IN SOUTH AFRICA: SOME LESSONS FROM THE UNITED KINGDOM TO PREVENT ABUSE?",
@@ -2098,6 +2718,46 @@
   "summary": "<p>This paper argues for an update to the South African Schools Act to include the regulation of learner-based cyberbullying, rather than relying on piecemeal school policies. Although school codes of conduct for learners can regulate cyberbullying, currently there is no clear legislative approach to regulate it. Bullying, regrettably, is a common and long-standing problem that is typically associated with schoolchildren. This conduct may take many forms including physical, verbal and psychological aggression. As technology advanced, bullying migrated online and became known as “online bullying” or “cyberbullying”. Cyberbullying poses a new challenge to its regulation, where schools formerly regulated traditional bullying. Due to its ongoing nature, cyberbullying can affect children at any time and any place, unlike traditional bullying, which is usually confined to the school grounds or requires physical interaction. The primary purpose of this research is to determine whether schools have the ability to regulate cyberbullying. In countries such as the United States, cyberbullying has been met with mixed responses and school policies have been struck down for unduly encroaching on learners’ human rights. Laws regulating cyberbullying therefore need to be carefully drafted to avoid constitutional scrutiny. A recent introduction of a Social Media Charter by the South African Human Rights Commission attempts to address cyberbullying and other online harms. However, this document is not “hard” law and only offers suggestions in addressing cyberbullying.</p>",
   "date": "2025-11-12T22:00:00+00:00",
   "first_seen": "2026-09-01T11:08:55.871338+00:00"
+ },
+ {
+  "id": "42c60cb6ce256799324575f8035273c31f454388",
+  "journal": "SAPL",
+  "title": "‘This Is Us, Three Decades Later’: Implementing Living African Customary Law in South Africa Through the Flexibility Approach",
+  "link": "https://doi.org/10.25159/2522-6800/15920",
+  "author": "Nicholene Nxumalo",
+  "summary": "<jats:p>The article discusses the challenges faced by the development of African Customary Law (ACL) in the post-democratic South African legal system. It highlights issues such as Eurocentric bias, the distortion of official ACL and the judicial misunderstanding of ACL. The proposed solution is a ‘flexibility approach’, which addresses imbalanced jurisprudence and curbs inconsistencies in judicial interpretation. The approach involves a three-phase process: assessment, sifting and feasibility study. The aim is to accommodate both ACL values and constitutional values equally. The approach is community-centered, ensuring development is rooted in the lived realities of the people and not assimilated into common law. However, its application is limited to the living version of ACL and must balance African values with legal certainty and vested rights.</jats:p>",
+  "date": "2025-11-03T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635084+00:00"
+ },
+ {
+  "id": "f337ce0f01c1735d0fc25455a251e416ae347ccc",
+  "journal": "JLSD",
+  "title": "Normative Motivations and Constructions: Reflections on Bridewealth Payment in Africa",
+  "link": "https://doi.org/10.25159/2520-9515/16952",
+  "author": "Jane C. Diala",
+  "summary": "<jats:p>Most traditional societies in sub-Saharan Africa have experienced diverse challenges through their encounters with forces of globalisation, such as colonialism, apartheid and the human rights movement. The legacies of these forces continue to reshape their cultural values, belief systems, practices and legal identities, often leading to their loss or transmogrification. However, the practice of bridewealth payment has survived its encounter with globalisation. Bridewealth payment is notable for its role in legitimising marriages and solidifying an alliance between the families of the bride and the groom. Its resilience amid socio-economic changes, with variations in form and quantum, is remarkable, despite accusations that it undermines women’s agency and contributes to gender-based violence. This paper uses comparative analysis of legal interventions in customary laws of marriage in South Africa and Nigeria, drawing on literature, field insights, legislation and judicial decisions to probe the normative motivations behind bridewealth’s persistence. These motivations inform how people adapt their practices to ever-changing socio-economic conditions. Furthermore, they are helpful for policymakers to understand how norms emerge, adapt and resist legislative intrusions. This paper reveals the adaptive nature of bridewealth, offering insights into the interaction between tradition and modernity. It calls for policies that are both culturally sensitive and respectful of lasting norms, while also addressing gender equity concerns. The findings reveal that bridewealth’s persistence is attributed to its function in legitimising marriages and strengthening family alliances. Its adaptations to socio-economic changes suggest that policymakers should align legal frameworks with cultural experiences to encourage inclusive development.</jats:p>",
+  "date": "2025-10-22T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640606+00:00"
+ },
+ {
+  "id": "b173de7ceeafb10fe30be997137afb1703f83651",
+  "journal": "JLSD",
+  "title": "Drought Resilience, Multi-Level Stakeholder Collaboration and Sustainable Development in South Africa",
+  "link": "https://doi.org/10.25159/2520-9515/19517",
+  "author": "Abiodun Omotayo Oladejo",
+  "summary": "<jats:p>Drought is a major climatic crisis in South Africa today, and its impacts on agricultural operations remain a significant concern. This study, grounded in a disaster risk reduction framework, analyses the importance of incorporating multi-stakeholder collaboration as a critical resilience tool for agricultural drought. The study employed a survey approach and included 122 individuals with an interest in water-related issues, particularly those affecting agricultural and allied operations. The methods of data analysis include the Chi-Square test and binomial regression. Based on the research data, the participants hold the belief that stakeholder collaboration at the municipal level can mitigate the impacts of drought when it occurs. Similarly, the research respondents expressed their willingness to be involved in such an arrangement because they believe in the dispersal of unique technical know-how within the stakeholder sectors, which could be advantageous to other industries and increase drought resilience. However, it is crucial to note that knowledge communities for drought resilience require multifarious resources, which the government alone cannot provide; hence, the need to co-opt and collaborate with the private sector.</jats:p>",
+  "date": "2025-10-21T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640612+00:00"
+ },
+ {
+  "id": "bce162c81d856e46ad4315fcf5e741c661a23353",
+  "journal": "AJLS",
+  "title": "The Persistence of Property Grabbing in the South African Customary Law of Succession",
+  "link": "https://doi.org/10.1163/17087384-12340124",
+  "author": "Fatima Osman",
+  "summary": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    This article critically examines the persistence of property grabbing under South Africa’s customary law of succession, despite landmark legal reforms such as the judgment in\n                    <jats:italic>Bhe v Magistrate, Khayelitsha; Shibi v Sithole</jats:italic>\n                    2005 (1)\n                    <jats:sc>SA</jats:sc>\n                    580 (\n                    <jats:sc>CC</jats:sc>\n                    ) and the Reform of Customary Law of Succession and Regulation of Related Matters Act 11 of 2009. Drawing on desktop research and empirical findings, the article explores key risk factors, including gender, the nature of the estate, the type of marriage, and the urban-rural divide, that exacerbate the vulnerability to property grabbing. The analysis reveals that legislative reforms alone are insufficient to secure inheritance rights, and calls for a holistic approach that includes strengthening matrimonial property rights, promoting legal literacy, community education, and enhancing oversight of estate administration. The findings underscore the limitations of current reforms in addressing systemic inequities and offer critical insights into the socio-legal challenges of balancing statutory and customary practices.\n                  </jats:p>",
+  "date": "2025-10-20T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240429+00:00"
  },
  {
   "id": "3e8f0ca1b5bb75fb3689711207a34e9d987f1109",
@@ -2170,6 +2830,186 @@
   "first_seen": "2026-09-01T11:01:22.154978+00:00"
  },
  {
+  "id": "642de83d18a969063f8a0b84ce68ec2b62136f1a",
+  "journal": "CILSA",
+  "title": "An Analysis of Directors’ Oversight Function in Respect of Financial Disclosures and their Implications in South Africa",
+  "link": "https://doi.org/10.25159/2522-3062/19482",
+  "author": "Kiyasha Thambi",
+  "summary": "<jats:p>The gap between corporate corruption and the public interest is often stymied by corporate governance failures, such as inertia and apathy, in contrast to the failure of directors to fulfil their strategic oversight role. The collapse of Tongaat Hulett Limited, triggered by allegations of financial misconduct, led to a forensic investigation and findings of management errors, unfavourable accounting practices and more within the company. Despite the severity of the violations related to the company’s unfavourable accounting practices, the integrity of their financial information, the credibility of the external audit, and their management practices came under scrutiny. Furthermore, although there are several ‘markers’ for such scandals, responsibility ultimately rests with directors when they neglect their duties by failing to take reasonable steps to keep stakeholders, investors and the public informed about the company’s economic position. The Tongaat Hulett scandal, among others, illustrates the intrinsic flaws in South Africa’s corporate or management oversight model. The civil action, which will include compensation for breaches of directors’ fiduciary duties and misrepresentation, along with Tongaat Hulett’s request for an order declaring the executives as delinquent directors, has had a significant impact on the duties of directors in South African companies. This may potentially lead to advancements in the effectiveness of directors’ oversight function concerning financial disclosures.</jats:p>",
+  "date": "2025-10-13T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421429+00:00"
+ },
+ {
+  "id": "02fb5c9f535180c5709d17afeb612d51b03e9593",
+  "journal": "JLSD",
+  "title": "The Complexity of South Africa’s Dual Tenure System: A Legacy Unresolved?",
+  "link": "https://doi.org/10.25159/2520-9515/17693",
+  "author": "Katlego Ramantsima, Nokwanda Sihlali, Thandolwethu Nkopane",
+  "summary": "<jats:p>Dual tenure refers to a situation where a country has two distinct but often overlapping systems of land ownership or use rights. In South Africa, dual land tenure comprises private ownership and communal land ownership. Section 25(6) of the South African Constitution provides tenure security for people living on communal land. Whilst section 25(9) mandates parliament to enact legislation to give effect to this provision, several legislations with land reform objectives have fallen short in safeguarding rural citizens’ tenure security. The South African government has made numerous attempts to address the effect that dual tenure has on rural citizens’ tenure security. These efforts have not been successful, as they failed to engage meaningfully with the customary land tenure systems that already exist. We use Mahmood Mamdani’s theoretical framing of the bifurcated state to understand the nature of South Africa’s dual land tenure system. This theoretical lens shows that South Africa’s customary land rights and common law land rights do not run parallel with equal powers. We use case law to illustrate the complex nature of dual tenure. We posit that a capable and committed state is important in creating a legal framework that reflects the layered and relational nature of customary land rights. It supports the strengthening of the Interim Protection of Informal Land Rights Act 31 of 1996 (IPILRA) provisions, considering the various complexities of customary tenure systems that must be considered during the Land Records Act development process as recommended by the High Level Panel.</jats:p>",
+  "date": "2025-10-10T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640620+00:00"
+ },
+ {
+  "id": "f4aa4d4fc376fa49cff7adf8cc30138db2c7d311",
+  "journal": "CILSA",
+  "title": "An Assessment of Tanzania’s Legal Framework on Military Field Training and Environmental Protection in Comparison with China",
+  "link": "https://doi.org/10.25159/2522-3062/17043",
+  "author": "Norga Alloyce Komba, Chen Haisong, Joseph Kizange",
+  "summary": "<jats:p>This paper assesses Tanzania’s environmental legislation on military field training in comparison with China. Both countries have ratified environmental treaties and conduct regular land, air and water training that impacts ecosystems, yet Tanzania’s military role in environmental decline has received little scrutiny. Using doctrinal and qualitative research, the study compares relevant regulations in both jurisdictions, drawing lessons from China’s more developed framework. China integrates environmental norms into both military and environmental law ensuring coordination and specificity, while Tanzania’s framework is less comprehensive. The paper recommends strengthening Tanzania’s National Defence Act with environmental provisions, advancing policy and scholarship on sustainable military training and raising awareness of its ecological impacts. The findings are relevant to the military, defence institutions, policymakers, scholars and students of environmental studies.</jats:p>",
+  "date": "2025-10-08T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421437+00:00"
+ },
+ {
+  "id": "763a742320692d0711b056f4fb43b87a337a8890",
+  "journal": "CILSA",
+  "title": "Mercosur and Tacit Choice of Law in International Commercial Contracts: A Comparative Study of Private International Law of Contract in Argentina, Brazil, Paraguay and Uruguay",
+  "link": "https://doi.org/10.25159/2522-3062/16245",
+  "author": "Garth Jody Bouwers",
+  "summary": "<jats:p>The Southern Common Market (Mercosur) is a regional political and economic bloc comprising certain South American countries. The main objectives of Mercosur include sustainable development, harmonising legislation in relevant areas to strengthen the integration process, identifying investment opportunities, and promoting the growth of domestic and regional markets. As such, there is a need for clear rules and principles of private international law within the Mercosur Member States. Certainty regarding private international law rules will contribute to sustainable development and strengthening economic growth in the Mercosur region. This article examines the rules and principles of choice of law, which is paramount in international commercial contracts. More specifically, the article focuses on the issues related to determining the existence of a tacit choice of law in international commercial contracts in Argentina, Brazil, Paraguay and Uruguay. For each country, the article analyses the level of strictness of the criteria for inferring a tacit choice of law, the indicators that have been relied upon, and the weight that has been attached to these factors.</jats:p>",
+  "date": "2025-10-08T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421444+00:00"
+ },
+ {
+  "id": "44a9c7f5b72822f2f424d1ad82c10cb9ee97844d",
+  "journal": "CILSA",
+  "title": "Exploring the Use of Artificial Intelligence to Increase Intra-African Trade under the African Continental Free Trade Area Agreement",
+  "link": "https://doi.org/10.25159/2522-3062/19504",
+  "author": "Nathan Rewynne Paul, Shelton Tapiwa Mota Makore",
+  "summary": "<jats:p>Artificial intelligence (AI) has the potential to boost intra-African trade under the African Continental Free Trade Area Agreement (AfCFTA). AI technologies can facilitate the economic integration envisioned by the AfCFTA, thereby contributing to the rapid advancements of the Fourth Industrial Revolution, the achievement of the United Nations Sustainable Development Goals, and the African Union Agenda 2063. This article explores how effective AI adaptation can transform and recalibrate trade under the AfCFTA. It argues that AI can enhance trade facilitation, optimise supply chains, and improve efficiency in logistics, border, and customs operations across Africa. The article notes that the AfCFTA legal framework requires adaptations to effectively integrate AI technologies. It further posits that leveraging AI to increase intra-African trade will require contracting parties to address challenges such as digital exclusion, infrastructural gaps, and regulatory bottlenecks. Finally, the article explores the implications of this AI-driven digital transformation for creating new opportunities for economic growth and innovation in Africa.</jats:p>",
+  "date": "2025-10-08T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421451+00:00"
+ },
+ {
+  "id": "73d4fc4f44cb942189b8da767934fd60c1aea7ff",
+  "journal": "SAPL",
+  "title": "Specialised Environmental Courts as a Driver of Environmental Protection in South Africa",
+  "link": "https://doi.org/10.25159/2522-6800/17371",
+  "author": "Abimbola Olowa, Loretta Feris",
+  "summary": "<jats:p>The judiciary plays a vital role in advancing environmental protection. This article critically examines three key roles played by the judiciary towards the achievement of environmental protection—the development of environmental jurisprudence through the interpretation and application of the substantive environment right, the enforcement of environmental laws and the promotion of compliance with environmental laws. It evaluates the extent to which general courts in South Africa have fulfilled these key roles and argues that specialised environmental courts are more appropriately positioned to execute these roles effectively. Using the Environment and Land Court of Kenya, the Land and Environment Court of New South Wales and Hermanus Environmental Court as case studies, it explores the potential benefits of specialised environmental courts in strengthening these roles in South Africa. The analysis underscores the contributions of these specialised environmental courts to the development of environmental jurisprudence and the advancement of environmental protection.</jats:p>",
+  "date": "2025-10-03T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635095+00:00"
+ },
+ {
+  "id": "244b3020a96b4c1b962f4aaba624be2371f1c2c1",
+  "journal": "SAJHR",
+  "title": "Lost in translation: Justice and rights in South Africa’s many languages",
+  "link": "https://doi.org/10.1080/02587203.2026.2639160",
+  "author": "Sindiso Mnisi, Jeff Handmaker",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580105+00:00"
+ },
+ {
+  "id": "5280c8e80e519b07b06fa342261e3fbcda1cb23f",
+  "journal": "SAJHR",
+  "title": "Yini amalungelo? Ukubukwa kwamalungelo ngehlo lolimi namasiko endabuko eNingizimu Afrika yangemva kobandlululo",
+  "link": "https://doi.org/10.1080/02587203.2026.2633983",
+  "author": "Kira Tait",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580114+00:00"
+ },
+ {
+  "id": "64b6241c0ab8bde49045af12156fc9249450cd2c",
+  "journal": "SAJHR",
+  "title": "Setfulo lesinenhlonipho: Utsini Make Ng’Gogo NgeBuNtfu",
+  "link": "https://doi.org/10.1080/02587203.2026.2639130",
+  "author": "Sindiso Mnisi",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580147+00:00"
+ },
+ {
+  "id": "a84d0020772a22158b8072d131fbedff34331c14",
+  "journal": "SAJHR",
+  "title": "Masetlapelo a molao le polelo: Tebedišišo ya manyalo a ngwetši ya lapa go la Limpopo",
+  "link": "https://doi.org/10.1080/02587203.2026.2634910",
+  "author": "Kagiso A Maphalle",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580159+00:00"
+ },
+ {
+  "id": "b5518cd40f183e3bd5ba57b755f16d9c4ede3bc0",
+  "journal": "SAJHR",
+  "title": "Morena ke morena ka batho: Tokelo ea ho nka karolo pusong Afrika Boroa",
+  "link": "https://doi.org/10.1080/02587203.2026.2634909",
+  "author": "Hoolo ‘Nyane",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580168+00:00"
+ },
+ {
+  "id": "4f169ad81aad0d90fed362c962c46285f524a85b",
+  "journal": "SAJHR",
+  "title": "Umhlaba Wethu: Iinkqubo, iingcamango, nengqiqo yesiXhosa ngomhlaba",
+  "link": "https://doi.org/10.1080/02587203.2026.2634905",
+  "author": "Thiyane Duda, Bonani Loliwe",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580178+00:00"
+ },
+ {
+  "id": "f400f1fafcd6cfcff1037d9f8a87f31c919dba6e",
+  "journal": "SAJHR",
+  "title": "Dikgeo tsa puo le setso le ditokelo tsa ditjhaba tsa matsoalloa: Maikutlo a tswang kahlolong ya\n                    <i>Sustaining the Wild Coast</i>",
+  "link": "https://doi.org/10.1080/02587203.2026.2634913",
+  "author": "Tiisetso John Rantlo",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580188+00:00"
+ },
+ {
+  "id": "633509c9a2523be0f7865f30555f784ba9c381f8",
+  "journal": "SAJHR",
+  "title": "Ukucabanga ngokwesikhathi esedlule nangolimi oluhlukene: Ubukhosi bomhlaba ngasekupheleni kwekhulu-unyaka leshumi nesishiyagalolunye nasekuqaleni kwekhulu-nyaka lamashumi amabili kanye nanamuhla",
+  "link": "https://doi.org/10.1080/02587203.2026.2634916",
+  "author": "Mbongiseni Buthelezi",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580197+00:00"
+ },
+ {
+  "id": "40b9ee60d01736c9dacf843ce784c6e9009bfda3",
+  "journal": "SAJHR",
+  "title": "Ingqiqo-nzulu ngobulungisa nomthetho kwi\n                    <i>Tyala Lamawele</i>\n                    kwimo yentlekele nenguqu eMzantsi Afrika",
+  "link": "https://doi.org/10.1080/02587203.2026.2634915",
+  "author": "Sanele kaNtshingana",
+  "summary": "",
+  "date": "2025-10-02T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:14.580205+00:00"
+ },
+ {
+  "id": "45771611eb8f975fb58760eeee2bb68f5d3ec596",
+  "journal": "AJLS",
+  "title": "A Critical Appraisal of the Legal Framework for the Promotion of Workplace Safety in Nigeria",
+  "link": "https://doi.org/10.1163/17087384-12340121",
+  "author": "Adaeze Asse, Ifeoluwa A. Olubiyi, Ifeoluwayimika Bamidele",
+  "summary": "<jats:title>Abstract</jats:title>\n<jats:p>Over 2.8 million workers die annually from workplace injuries and diseases, while an additional 160 million suffer from non-fatal work-related injuries and diseases. Many countries have enacted occupational safety and health (<jats:sc>OSH</jats:sc>) legislation, in line with the requirements of the International Labour Organization. Using a comparative legal research methodology, this paper examines the legal framework on workplace safety in Nigeria. It argues that the legal framework is fragmented and contains obsolete regulations that fail to cover all categories of workers. Therefore, it recommends reform to merge the various occupational safety and health laws currently in force in Nigeria. Furthermore, it recommends sensitivity to changes in the workplace arising from advances in technology and work formats. The study contributes to the theoretical discourse on <jats:sc>OSH</jats:sc> by developing a contextualized framework for analysing <jats:sc>OSH</jats:sc> frameworks in developing economies such as Nigeria.</jats:p>",
+  "date": "2025-09-16T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240439+00:00"
+ },
+ {
+  "id": "e9925c9ad07b81e6ee25c6b9370c7e88b58a5c3d",
+  "journal": "AJLS",
+  "title": "Reimagining Legal Pluralism in Africa: Balancing Indigenous, State, and Religious Laws, edited by Anthony C. Diala and Christa Rautenbach",
+  "link": "https://doi.org/10.1163/17087384-12340122",
+  "author": "Gerald Jeremiah Tendai Mandisodza",
+  "summary": "",
+  "date": "2025-09-16T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240446+00:00"
+ },
+ {
+  "id": "0c355b8545d9e28112a726b88457e846bf65ee90",
+  "journal": "CILSA",
+  "title": "A Threat of State Extinction: The Plight of Small Island Developing States Amid a Changing Climate and Sea-level Rise",
+  "link": "https://doi.org/10.25159/2522-3062/16371",
+  "author": "Kyra Boshoff, Vishal Surbun",
+  "summary": "<jats:p>Climate change and rising sea levels are triggering a quest for survival for Small Island Developing States (SIDS) worldwide. SIDS, such as the Republic of Kiribati and the Marshall Islands, are experiencing the threat of rising sea levels coupled with the other side effects of this phenomenon, including food insecurity due to groundwater salinification, and scarce access to freshwater sources. If SIDS become uninhabitable or submerged as a result of rising sea levels, it may affect the legal basis of these states to maintain statehood. State extinction due to climate change may be an eventuality we could see within this century as SIDS become uninhabitable or submerged. This article considers the criteria for statehood and examines the question as to whether a SIDS may become extinct under international law because of climate change. It is argued that under current international law, statehood cannot continue without a population or natural territory. Although there is a presumption of state continuity under international law, this only remedies the temporary absence of an essential criterion of statehood. With the effects of climate change being experienced by SIDS, the absence of one or more of the criteria of statehood would be permanent. This article considers how international law could be developed to enable SIDS to retain their statehood notwithstanding the consequences of climate change and sea-level rise.</jats:p>",
+  "date": "2025-09-12T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:16.421457+00:00"
+ },
+ {
   "id": "c7f955d195b6ad6f79f5c898d1bcdbf09b41fbab",
   "journal": "Obiter",
   "title": "Obiter Index Vol 25 2004",
@@ -2200,6 +3040,26 @@
   "first_seen": "2026-09-01T11:13:55.757534+00:00"
  },
  {
+  "id": "a8a90d8885fbaa756e47ac9005b4c5a0c60bad19",
+  "journal": "JLSD",
+  "title": "A Critical Thought on Paternity Leave for Working Fathers",
+  "link": "https://doi.org/10.25159/2520-9515/16613",
+  "author": "Leah Alexis Ndimurwimo, Johana Kambo Gathongo",
+  "summary": "<jats:p>Paternity leave is one of the crucial aspects of employment relations that fosters paternal involvement in family life and raising children. Contrary to the importance of paternity leave in our modern societies, laws can be promulgated on wrong perceptions that women must stay at home and take care of the household and children, while men are obliged to work to provide for their families. The current reality of life calls for a paradigm shift in traditional gender roles of men and women that both are equal and have become career- and family-orientated. In many democratic societies, constitutionally entrenched rights prohibit unfair discrimination based on sex or gender. However, labour laws in some jurisdictions do not expressly provide for paternity leave for working fathers the way women are given a reasonable period to take maternity leave for the caring of their newborn babies. This warrants a debate on whether excluding paternity leave in laws and policies aligns with constitutional values. We investigate how existing paternity legislation is regulated and the impact that failure to provide paternity leave has on the children. Paternity leave in South Africa, Kenya, and Tanzania is discussed within an international, regional, and national legal framework and compared with the Western countries of Iceland, Norway, and Sweden. The article concludes that effective measures and policies are essential in Africa to dismantle traditional gender stereotypes and promote equal roles in the workplace.</jats:p>",
+  "date": "2025-08-26T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640628+00:00"
+ },
+ {
+  "id": "12c75abc9ed581aa076ac526206e4fca8fd7e3a2",
+  "journal": "JLSD",
+  "title": "The Legacy of Colonial Land Law and Implications for Compensation in Communal Land Areas of Zimbabwe",
+  "link": "https://doi.org/10.25159/2520-9515/17634",
+  "author": "Charles Chavunduka, James Lomax Mukwambo",
+  "summary": "<jats:p>Globally and in developing countries in particular, rural communities living on communal land face the risk of displacement by development projects such as those related to mineral exploration and mining. In many cases, displaced communities have not been adequately compensated. The article investigates how legacies of colonial land laws have continued to impact the rights of communal people. A qualitative approach that is based on a case study design is used to explore the research objective. Data collection used a desktop review, complemented by case law and newspaper reports, and the data was subjected to thematic analysis. The results show that although the 2013 Constitution of Zimbabwe expanded the buddle of rights to land for communal people, the relevant provisions of the supreme law are yet to be operationalised. Innovations on compensation that are based on new approaches by international agencies have received more uptake by the private sector rather than the government. The way forward calls for the implementation of relevant provisions of the Constitution and the reform of land-related laws and institutions.</jats:p>",
+  "date": "2025-08-26T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640635+00:00"
+ },
+ {
   "id": "f4f4a92fb862ff64e23cd06e6aef2968b1f6c4b3",
   "journal": "SAPL",
   "title": "Copyright and Transformation in the Age of Constitutional Democracy",
@@ -2208,6 +3068,96 @@
   "summary": "<p class=\"Abstract\"><span lang=\"EN-GB\">South African copyright law has been the subject of sustained controversy and contestation in recent years, primarily as a result of protracted and ongoing legislative reform efforts as well as a high-profile constitutional challenge to the regulating statute. Despite being front and centre in the public’s attention, meaningful progress towards aligning copyright law with constitutional imperatives remains limited. This article traces the (lack of) advancement across the three branches of government—legislative, executive and judicial—and examines the likely causes behind each. It concludes that the dominant legal culture bears as much responsibility as foreign trade pressures and divisive stakeholder engagements in Parliament. It argues that the judiciary, in particular, holds significant but underused potential to drive the constitutional transformation of the country’s copyright law. </span></p>",
   "date": "2025-08-07T00:00:00+00:00",
   "first_seen": "2026-09-01T11:08:44.311125+00:00"
+ },
+ {
+  "id": "547925d5653c983cb6f43155b834e0112f1c5155",
+  "journal": "SAPL",
+  "title": "Perspectives on the Impact of the Fourth Industrial Revolution and Labour Practice in South Africa",
+  "link": "https://doi.org/10.25159/2522-6800/17972",
+  "author": "Tinyiku Dube, Delani Milton Mahhumane",
+  "summary": "<jats:p>This study presents a detailed content analysis of the emergence of the Fourth Industrial Revolution (4IR) as it gained momentum in the twenty-first century and its influence on human rights in labour practice. It sets out to investigate the potential implications of the 4IR for the protection and realisation of labour-related human rights in South Africa. The literature review incorporates a critical analysis of the existing and relevant literature that further expands the research problem. The study employs a qualitative method of data collection, evaluating the Constitution of the Republic of South Africa, relevant legislation, policy documents and other authenticated information sources. The aim is to identify research gaps not addressed in previous studies. While the major technological advancements associated with the 4IR are intended to improve workplace practices, many South Africans remain disadvantaged by the digital divide and cannot fully benefit from the opportunities the 4IR presents. This article provides an overview of the existing and emerging regulatory frameworks associated with advanced information technologies and concludes by identifying gaps in the current landscape. </jats:p>",
+  "date": "2025-08-07T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635115+00:00"
+ },
+ {
+  "id": "f1a861f1fc17f66b0614e5b6a9e08602dadbeb82",
+  "journal": "JLSD",
+  "title": "Examining the Requirement of Habitability under the South African Landlord-Tenant Framework",
+  "link": "https://doi.org/10.25159/2520-9515/17654",
+  "author": "Lerato Rudolph Ngwenyama",
+  "summary": "<jats:p>There are three rental housing sectors in South Africa, namely the private, the public, and the social sector. The private sector comprises the landlord–tenant relationship between purely private parties. The public sector comprises a rental relationship between low-income tenants and the state as public landlord, and the social sector comprises a rental relationship between lower-income tenants and state-subsidised landlords. Private residential housing is regulated by the Rental Housing Act 50 of 1999 (RHA) and the common law. In terms of the common law, a landlord is obliged to place and maintain the property in a condition that is reasonably fit for the purpose for which it was rented. The RHA is pending an amendment, which will expressly alter the common law and include the requirement of habitability in the landlord-tenant framework. In terms of the Rental Housing Amendment Act 35 of 2014 (RHAA), private-sector landlords will be required to provide tenants with a habitable dwelling and maintain the existing structure of such a dwelling in a habitable condition for the duration of the lease. “Habitability” in the RHAA refers to a dwelling that is safe and suitable to live in and has adequate space, protection from the elements and other threats to health, ensures the physical safety of the tenant, the tenant’s household and visitors, and is structurally sound. The RHAA defines “maintenance” as including such repairs and upkeep as may be required to ensure that a dwelling is in a habitable condition. Conversely, public residential housing does not fall under the ambit of the RHA, but it is regulated under a different framework, the National Housing Code of 2009 (NHC), while social rental housing is regulated under the Social Housing Act 16 of 2008 (SHA). The research problem is that the NHC and SHA are not currently housed under the ambit of the RHA. Accordingly, this article aims to investigate where the NHC and SHA fit into the South African landlord-t",
+  "date": "2025-08-07T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.640643+00:00"
+ },
+ {
+  "id": "cd6bafa2d1c3bf7fbb21f24b072df7e333a8c264",
+  "journal": "SAPL",
+  "title": "Roadblocks to Education: The Toll of the Taxi Strikes",
+  "link": "https://doi.org/10.25159/2522-6800/15670",
+  "author": "Gadiël Robbertze",
+  "summary": "<jats:p>This article examines the impact of a recent protest by the South African National Taxi Council in the Western Cape, which escalated into violence and disrupted various aspects of daily life, including school attendance. Focusing on the constitutional right to education enshrined in section 29 of the Constitution of the Republic of South Africa, 1996 (the Constitution), and the interrelated concept of a child’s best interests in section 28 of the Constitution, the article delves into the intricate interplay between the rights to strike and education. The protest’s repercussions on the right to education, especially in the context of a society still grappling with the historical injustices of the past, highlights the complexity of striking a balance between these rights.</jats:p>",
+  "date": "2025-08-05T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635144+00:00"
+ },
+ {
+  "id": "0856ea1d527305195e5f141e7798736554e50d7e",
+  "journal": "SAPL",
+  "title": "The Trouble with Policy Development: A Case for an Indigenised Maputo Protocol",
+  "link": "https://doi.org/10.25159/2522-6800/14160",
+  "author": "Nombulelo Tholithemba Shange",
+  "summary": "<jats:p>Introduction\nThe Protocol to the African Charter on Human and Peoples’ Rights on the Rights of Women in Africa (‘Maputo Protocol’) celebrated its twentieth anniversary in 2023, but women on the African continent still struggle to access the rights enshrined therein. The Protocol faces various challenges, including a lack of sufficient funding for effective implementation of the Protocol. Additionally, historical and contemporary factors—such as colonial legacies, ongoing conflict, economic recessions and public health crises like the recent COVID-19 pandemic—hinder progress of its implementation.\nAnother significant challenge is the persistent perception of women as inferior. African women, in particular, often experience what has been described as ‘double patriarchy‘. This is experienced by those who straddle two (or more) cultural contexts—such as Western and Eastern, or African and Western. The concept of double patriarchy comes both from coloniality and within women’s own cultures. The first stems from cultural norms and practices within their own communities, often reinforced through family dynamics, community, and religious customs. This form of patriarchy is typically more localised and traditional. The second originates from formal, often Westernised social institutions such as schools, workplaces, and places of worship. It may also manifest through globalised norms and systems. These patriarchies often bleed into each other, even when they clash with each other, and they create deeper layers of complexity when it comes to women’s rights. These and many other political, social and global reasons are all valid considerations as to why the Maputo Protocol has struggled to deliver on its promises.\nThis paper focuses on the Protocol’s emphasis on universality at the expense of indigenisation. Such universality is evidenced in several ways; for example, the document is available only in colonial languages: English, French and Portuguese. This point is imp",
+  "date": "2025-08-04T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:15.635155+00:00"
+ },
+ {
+  "id": "59ff0077457f5fb281a1689ed10c92995f2c508b",
+  "journal": "AJIC",
+  "title": "Evolution of Africa's Intellectual Property Treaty Ratification Landscape",
+  "link": "https://doi.org/10.23962/10539/26173",
+  "author": "Jeremy De Beer, Jeremiah Baarbé, Caroline Ncube",
+  "summary": "<jats:p>Intellectual property (IP) policy is an important contributor to economic growth and human development. However, international commitments harmonised in IP treaties often exist in tension with local needs for flexibility. This article tracks the adoption of IP treaties in Africa over a 131-year span, from 1884 to 2015, through breaking it down into four periods demarcated by points in time coinciding with key events in African and international IP law: the periods 1884-1935, 1936-1965, 1966-1995, and 1996-2015. The article explores relevant historical and legal aspects of each of these four periods, in order to assess and contextualise the evolutions of the IP treaty landscape on the continent. The findings show that treaties now saturate the IP policy space throughout the continent, limiting the ability to locally tailor approaches to knowledge governance.</jats:p>",
+  "date": "2025-08-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097425+00:00"
+ },
+ {
+  "id": "bf23090c3cd52c8827e10a976b2b04787e2ab41d",
+  "journal": "AJIC",
+  "title": "AI-adoption attitudes in Southern Africa’s higher education sector: A pilot survey using the capability, opportunity, motivation and behaviour (COM-B) model",
+  "link": "https://doi.org/10.23962/ajic.i35.21607",
+  "author": "Mark E. Patterson, Johan Breytenbach, Ian Coffman",
+  "summary": "<jats:p>Artificial intelligence (AI) drives innovation but faces numerous potential challenges to adoption. This pilot survey applied the capability, opportunity, motivation and behaviour (COM-B) model to examine AI adoption attitudes in the Southern African higher education sector. The study sought to evaluate the extent to which the COM-B framework, rooted in behavioural science, can generate AI-adoption insights that would be complementary to insights generated by established information systems (IS) adoption models, such as the technology acceptance model (TAM) and the unified theory of acceptance and use of technology (UTAUT). Potential facilitators and barriers with respect to adoption of AI tools adoption were mapped against COM-B domains to develop a 10-point Likert-type scale survey that was piloted with 33 individuals working in the Southern African higher education sector. The findings identified key facilitators of AI as adequate technological infrastructure, readiness to address clients’ ethical concerns, and beliefs that AI tools benefit clients. The dominant barrier identified was clients’ potential ethical concerns regarding AI use in decision-making.</jats:p>",
+  "date": "2025-08-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:17.097435+00:00"
+ },
+ {
+  "id": "24bba614d244b1813ee7113fb47e4119a488807d",
+  "journal": "AJLS",
+  "title": "Post-COVID-19 Lessons: Reforming Ghana’s Electoral and Emergency Response Laws",
+  "link": "https://doi.org/10.1163/17087384-12340119",
+  "author": "Abdul Baasit Aziz Bamba",
+  "summary": "<jats:title>Abstract</jats:title>\n<jats:p>The <jats:sc>COVID</jats:sc>-19 pandemic posed significant challenges to constitutional governance worldwide, including in Ghana. The potential disruption of the country’s 2020 presidential and parliamentary elections exposed critical vulnerabilities in its constitutional and electoral framework, raising the spectre of an unprecedented governance crisis. These challenges highlight broader deficiencies in Ghana’s legal mechanisms for emergency response. This article examines these deficiencies, including the risk of a legal and political vacuum following the expiration of executive and legislative mandates. The study underscores the urgent need for governance and electoral reforms to address these deficiencies, strengthen the legal framework for emergency situations, and ensure the continuity of government functions during crises.</jats:p>",
+  "date": "2025-08-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240453+00:00"
+ },
+ {
+  "id": "d53656eeb7cfc130dd79c2cd945c85c14b71ddb4",
+  "journal": "AJLS",
+  "title": "Ensuring Equal and Inclusive Rights to Access Sexual and Reproductive Health Services for Adolescent Girls with Disabilities in Africa",
+  "link": "https://doi.org/10.1163/17087384-12340120",
+  "author": "Sindiso Nozitha Nkomo, Ebenezer Durojaye",
+  "summary": "<jats:title>Abstract</jats:title>\n <jats:p>In many African societies, access to sexual and reproductive health care services for adolescent girls remains very problematic. This is due to a number of reasons, including socio-cultural factors, influence of religion, negative attitudes of health care providers and legal and policy barriers. The situation is further compounded for adolescent girls with disabilities, as many of them are perceived as asexual and unable to make decisions about their sexual and reproductive health. Unfortunately, laws and policies related to sexual and reproductive health and rights (<jats:sc>SRHR</jats:sc>) of adolescent girls with disabilities tend to exclude their views, reinforcing stigma and discrimination against them. Using the substantive equality and inclusivity lens, this article argues that if adolescent girls with disabilities are to live a fulfilling and healthy life, they must have access to sexual and reproductive health services on an equal basis with others. More importantly, laws and policies to address gaps in access to <jats:sc>SRHR</jats:sc> services must adhere to rights-based principles, such as respect for dignity, non-discrimination, participation, and accountability, which are entrenched in different human rights instruments. Drawing exemplars from across the region, the paper notes that these human rights instruments require African governments, among other things, to remove various barriers to access to <jats:sc>SRHR</jats:sc> services for adolescent girls with disabilities.</jats:p>",
+  "date": "2025-08-01T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240461+00:00"
+ },
+ {
+  "id": "429968f67009befeb3444f2501f539138addf5a9",
+  "journal": "AJLS",
+  "title": "The Appointment of Commissioners of the Independent Electoral Commission in Botswana",
+  "link": "https://doi.org/10.1163/17087384-12340118",
+  "author": "Baboki Jonathan Dambe",
+  "summary": "<jats:title>Abstract</jats:title>\n<jats:p>Traditionally, Botswana has enjoyed the illustrious reputation of being a beacon of democracy in Africa and beyond. This reputation has been attributed to the country’s political and economic stability, free and fair elections, and peaceful transitions of government. Until recently, Botswana’s electoral laws and processes were rarely ever the subject of judicial scrutiny. However, in the aftermath of the 2019 general elections, there was a spate of election petitions seeking to impugn the outcome of the elections. Furthermore, in the build up to the 2024 general elections, litigation challenging electoral laws and processes became commonplace. These cases ranged from demands by parties to be actively involved in observing voter registration for elections to objections to the appointment of Commissioners of the Independent Electoral Commission; and demands for electronic copies of the voters roll. Collectively, the cases highlight potential inadequacies in Botswana’s electoral laws. This paper analyses the case of Umbrella for Democratic Change and Others v Attorney General and Others (<jats:sc>UDC</jats:sc> v <jats:sc>AG</jats:sc>). Therein, 11 opposition parties sought to interdict Commissioners of the Independent Electoral Commission from discharging their duties pending a determination of the constitutionality of their appointment. The paper poses and answers the simple question whether the court got the decision wrong.</jats:p>",
+  "date": "2025-07-31T00:00:00+00:00",
+  "first_seen": "2026-09-01T11:39:18.240469+00:00"
  },
  {
   "id": "eda8382418c8252d42c317344592fe725dcb3529",
