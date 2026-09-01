@@ -1,0 +1,26 @@
+tier,short_name,title,issn_online,issn_print,host,route,feed_url,tls,feed_status,notes
+1,PELJ,Potchefstroom Electronic Law Journal,1727-3781,,ASSAf OJS,ojs,https://perjournal.co.za/gateway/plugin/WebFeedGatewayPlugin/rss2,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS, 30 items"
+1,SAJHR,South African Journal on Human Rights,1996-2126,0258-7203,Taylor & Francis,rss,https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=rjhr20,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 15 items"
+1,StellLR,Stellenbosch Law Review,1996-2193,1016-4359,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.slr,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 12 items"
+1,SALJ,South African Law Journal,1996-2177,0258-2503,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.salj,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 9 items"
+1,TSAR,Tydskrif vir die Suid-Afrikaanse Reg,1996-2207,0257-7747,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.tsar,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 13 items"
+1,CCR,Constitutional Court Review,,2073-6215,Juta / own open-access site,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.conrev1,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 19 items; Sabinet code jlc.conrev1"
+1,SAIPLJ,South African Intellectual Property Law Journal,,2309-4532,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.saiplj,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 18 items"
+1,SAMLJ,SA Mercantile Law Journal,,1015-0099,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.samlj,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 12 items"
+1,AJ,Acta Juridica,,0065-1346,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.jur,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 15 items"
+1,THRHR,Tydskrif vir Hedendaagse Romeins-Hollandse Reg,,1682-4490,LexisNexis,crossref,,strict,none,"LexisNexis title; no Sabinet journal page found in two searches; Crossref by ISSN. If a Sabinet page is later sighted, its code can be dropped in here"
+1,DeJure,De Jure,2225-7160,1466-3597,PULP; Sabinet (Atypon) carries current volume,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=dejure,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 3 items"
+1,LDD,Law Democracy & Development,2077-4907,1028-1053,UWC; mirrored on AJOL (OJS) and Sabinet,ojs,https://www.ajol.info/index.php/ldd/gateway/plugin/WebFeedGatewayPlugin/rss2,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS, 4 items"
+1,SAPL,Southern African Public Law,2522-6800,2219-6412,UNISA Press OJS,ojs,https://unisapressjournals.co.za/index.php/SAPL/gateway/plugin/WebFeedGatewayPlugin/rss2,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS, 4 items"
+1,AHRLJ,African Human Rights Law Journal,1996-2096,1609-073X,PULP,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=ju.ahrlj,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 3 items"
+2,Obiter,Obiter,2709-555X,1682-5853,NMU OJS,ojs,https://obiter.mandela.ac.za/gateway/plugin/WebFeedGatewayPlugin/rss2,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS, 30 items"
+2,SpecJur,Speculum Juris,2523-2177,0584-8652,Fort Hare (DHET lists LexisNexis),check,,strict,check,Locate current host before assigning a route
+2,JJS,Journal for Juridical Science,,0258-252X,UFS OJS,ojs,https://journals.ufs.ac.za/index.php/jjs/gateway/plugin/WebFeedGatewayPlugin/rss2,relaxed,confirmed,"Host sends an incomplete certificate chain: Chrome repairs it, Python cannot. Feed itself is sound (RSS, 30 items 1 Sep 2026). tls=relaxed applies per row only."
+2,CILSA,Comparative and International Law Journal of Southern Africa,,0010-4051,UNISA Press OJS (moved from Juta),ojs,https://unisapressjournals.co.za/index.php/CILSA/gateway/plugin/WebFeedGatewayPlugin/rss2,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS, 6 items"
+2,ActaAcad,Acta Academica,2415-0479,0587-2405,UFS OJS,ojs,https://journals.ufs.ac.za/index.php/aa/gateway/plugin/WebFeedGatewayPlugin/rss2,relaxed,confirmed,"Host sends an incomplete certificate chain: Chrome repairs it, Python cannot. Feed itself is sound (RSS, 30 items 1 Sep 2026). tls=relaxed applies per row only."
+2,Fundamina,Fundamina,2411-7870,1021-545X,Juta,crossref,,strict,none,SciELO feed exists but is empty; Crossref by ISSN
+2,AJIC,African Journal of Information and Communication,2077-7213,2077-7205,Wits OJS,ojs,,strict,check,Locate current OJS host (DHET URL is stale) before building feed URL
+2,JLSD,Journal of Law Society and Development,2520-9515,2313-8289,UNISA Press OJS,ojs,https://unisapressjournals.co.za/index.php/JLSD/gateway/plugin/WebFeedGatewayPlugin/rss2,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS, 9 items"
+2,JCLA,Journal of Comparative Law in Africa,,2311-6889,Juta,rss,https://journals.co.za/action/showFeed?type=etoc&feed=rss&jc=jlc.jcla,strict,confirmed,"feedcheck OK 1 Sep 2026: RSS 1.0, 6 items"
+2,AnnSurv,Annual Survey of South African Law,,0376-4605,Juta,crossref,,strict,none,Annual; property chapter is the item of interest
+3,AJLS,African Journal of Legal Studies,1708-7384,2210-9730,Brill Nijhoff,rss,,strict,check,Round 1 /rss/journals/ajls returned 404; locate RSS link on the Brill journal page manually; Crossref as fallback
