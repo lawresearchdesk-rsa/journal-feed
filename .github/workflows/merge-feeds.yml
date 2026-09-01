@@ -1,0 +1,49 @@
+# Save this file in your repository as .github/workflows/merge-feeds.yml
+#
+# What it does: every morning it runs merge_feeds.py, which rewrites
+# docs/merged.xml and docs/store.json, and commits the result back to the
+# repository. GitHub Pages then serves docs/merged.xml at a fixed URL, which
+# is the single address Zotero subscribes to.
+
+name: Merge journal feeds
+
+on:
+  schedule:
+    # 05:00 UTC daily, which is 07:00 SAST. GitHub uses UTC and may run the
+    # job up to an hour late when its schedulers are busy; nothing depends on
+    # the exact minute.
+    - cron: "0 5 * * *"
+  workflow_dispatch:  # adds a "Run workflow" button, useful for testing
+
+permissions:
+  contents: write  # the job commits its output back to the repository
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run the merger
+        run: python merge_feeds.py --csv journals.csv --out-dir docs
+
+      - name: Commit the result if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/merged.xml docs/store.json
+          if git diff --staged --quiet; then
+            echo "No new items; nothing to commit."
+          else
+            git commit -m "Update merged feed ($(date -u +%Y-%m-%d))"
+            git push
+          fi
