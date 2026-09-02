@@ -39,10 +39,12 @@ jobs:
         run: pip install requests
 
       - name: Run the merger
-        # --crossref fills the gaps: journals whose feed is absent, and any
-        # whose feed refuses GitHub's datacentre (Taylor & Francis, UNISA
-        # Press). Crossref is an API and answers from anywhere.
-        run: python merge_feeds.py --csv journals.csv --out-dir docs --crossref
+        # --crossref-all queries Crossref for every journal, not only the
+        # ones with no feed. Two reasons: it fills the gaps as before, and
+        # it enriches feed-derived items with the DOI their own feed omits.
+        # OJS feeds carry no DOI, and without one Zotero cannot find an
+        # open-access PDF even for a freely available article.
+        run: python merge_feeds.py --csv journals.csv --out-dir docs --crossref-all
 
       - name: Commit the result if anything changed
         run: |
