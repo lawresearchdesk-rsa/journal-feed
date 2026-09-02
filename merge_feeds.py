@@ -77,8 +77,22 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 RDF = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
 RSS1 = "{http://purl.org/rss/1.0/}"
 DC = "{http://purl.org/dc/elements/1.1/}"
+PRISM = "{http://prismstandard.org/namespaces/basic/2.0/}"
 
 EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+
+def clean_doi(raw):
+    """Normalise anything DOI-shaped to a bare 10.xxxx/yyyy string."""
+    if not raw:
+        return ""
+    raw = raw.strip()
+    for prefix in ("doi:", "DOI:", "https://doi.org/", "http://doi.org/",
+                   "https://dx.doi.org/", "http://dx.doi.org/"):
+        if raw.startswith(prefix):
+            raw = raw[len(prefix):]
+    raw = raw.strip()
+    return raw if raw.startswith("10.") else ""
 
 
 def title_key(journal, title):
@@ -119,6 +133,15 @@ def parse_date(raw: str):
     return None
 
 
+def pages_of(el):
+    """PRISM splits pagination across two elements; join them."""
+    start = text_of(el, PRISM + "startingPage")
+    end = text_of(el, PRISM + "endingPage")
+    if start and end and start != end:
+        return "%s-%s" % (start, end)
+    return start or end or ""
+
+
 def text_of(el, *paths):
     """First non-empty text found at any of the given child paths."""
     if el is None:
@@ -152,6 +175,11 @@ def parse_feed(body: str, journal: str):
                     "date": text_of(it, "pubDate", DC + "date"),
                     "author": text_of(it, DC + "creator", "author"),
                     "summary": text_of(it, "description"),
+                    "doi": clean_doi(text_of(it, PRISM + "doi", DC + "identifier")),
+                    "publication": text_of(it, PRISM + "publicationName", DC + "source"),
+                    "volume": text_of(it, PRISM + "volume"),
+                    "issue": text_of(it, PRISM + "number"),
+                    "pages": pages_of(it),
                 }
             )
 
@@ -165,6 +193,11 @@ def parse_feed(body: str, journal: str):
                     "date": text_of(it, DC + "date"),
                     "author": text_of(it, DC + "creator"),
                     "summary": text_of(it, RSS1 + "description", "description"),
+                    "doi": clean_doi(text_of(it, PRISM + "doi", DC + "identifier")),
+                    "publication": text_of(it, PRISM + "publicationName", DC + "source"),
+                    "volume": text_of(it, PRISM + "volume"),
+                    "issue": text_of(it, PRISM + "number"),
+                    "pages": pages_of(it),
                 }
             )
 
@@ -187,6 +220,11 @@ def parse_feed(body: str, journal: str):
                     "date": text_of(it, ATOM + "updated", ATOM + "published"),
                     "author": author,
                     "summary": text_of(it, ATOM + "summary", ATOM + "content"),
+                    "doi": clean_doi(text_of(it, PRISM + "doi", DC + "identifier")),
+                    "publication": text_of(it, PRISM + "publicationName"),
+                    "volume": text_of(it, PRISM + "volume"),
+                    "issue": text_of(it, PRISM + "number"),
+                    "pages": pages_of(it),
                 }
             )
 
@@ -204,6 +242,11 @@ def parse_feed(body: str, journal: str):
                 "link": raw["link"],
                 "author": raw["author"],
                 "summary": raw["summary"],
+                "doi": raw.get("doi", ""),
+                "publication": raw.get("publication", ""),
+                "volume": raw.get("volume", ""),
+                "issue": raw.get("issue", ""),
+                "pages": raw.get("pages", ""),
                 "date": dt.astimezone(timezone.utc).isoformat() if dt else "",
                 "first_seen": datetime.now(timezone.utc).isoformat(),
             }
@@ -278,8 +321,14 @@ def build_rss(items, max_items):
     items = sorted(items, key=sort_key, reverse=True)[:max_items]
     now = datetime.now(timezone.utc)
 
-    rss = ET.Element("rss", {"version": "2.0",
-                             "xmlns:dc": "http://purl.org/dc/elements/1.1/"})
+    rss = ET.Element("rss", {
+        "version": "2.0",
+        "xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        # PRISM carries the DOI and pagination. Zotero reads these when it
+        # saves a feed item, and the DOI is what lets it find an open-access
+        # copy for articles whose own publisher page has no free PDF.
+        "xmlns:prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    })
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = "South African law journals (merged)"
     ET.SubElement(ch, "link").text = "https://example.invalid/merged.xml"
@@ -301,6 +350,22 @@ def build_rss(items, max_items):
             ET.SubElement(el, "pubDate").text = format_datetime(dt)
         if it.get("author"):
             ET.SubElement(el, "dc:creator").text = it["author"]
+        doi = it.get("doi", "")
+        if doi:
+            ET.SubElement(el, "prism:doi").text = doi
+            ET.SubElement(el, "dc:identifier").text = "doi:" + doi
+        if it.get("publication"):
+            ET.SubElement(el, "prism:publicationName").text = it["publication"]
+        if it.get("volume"):
+            ET.SubElement(el, "prism:volume").text = it["volume"]
+        if it.get("issue"):
+            ET.SubElement(el, "prism:number").text = it["issue"]
+        pages = it.get("pages", "")
+        if pages:
+            bits = pages.replace("--", "-").split("-")
+            ET.SubElement(el, "prism:startingPage").text = bits[0].strip()
+            if len(bits) > 1 and bits[1].strip():
+                ET.SubElement(el, "prism:endingPage").text = bits[1].strip()
         ET.SubElement(el, "category").text = it["journal"]
         if it.get("summary"):
             ET.SubElement(el, "description").text = it["summary"]
@@ -325,7 +390,8 @@ def crossref_items(issn, journal, days):
         "rows": "100",
         "sort": "published",
         "order": "desc",
-        "select": "DOI,title,author,issued,published,abstract,container-title",
+        "select": ("DOI,title,author,issued,published,abstract,"
+                   "container-title,volume,issue,page,ISSN"),
     }
     try:
         r = requests.get(CROSSREF % issn, params=params,
@@ -370,6 +436,7 @@ def crossref_items(issn, journal, days):
 
         link = "https://doi.org/" + doi if doi else ""
         key = link or (journal + "|" + title)
+        containers = w.get("container-title") or []
         out.append({
             "id": hashlib.sha1(key.encode("utf-8")).hexdigest(),
             "journal": journal,
@@ -377,6 +444,11 @@ def crossref_items(issn, journal, days):
             "link": link,
             "author": ", ".join(names),
             "summary": (w.get("abstract") or "")[:2000],
+            "doi": doi,
+            "publication": containers[0] if containers else "",
+            "volume": str(w.get("volume") or ""),
+            "issue": str(w.get("issue") or ""),
+            "pages": str(w.get("page") or ""),
             "date": date,
             "first_seen": datetime.now(timezone.utc).isoformat(),
         })
