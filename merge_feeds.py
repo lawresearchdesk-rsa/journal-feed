@@ -43,8 +43,10 @@ import argparse
 import base64
 import csv
 import hashlib
+import html
 import json
 import os
+import re
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -82,6 +84,41 @@ PRISM = "{http://prismstandard.org/namespaces/basic/2.0/}"
 EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 
+CITATION_LIKE = re.compile(
+    r"(volume\s+\d+|issue\s+\d+|\bpage[s]?\s+\d+|\bpp?\.\s*\d+)", re.I)
+
+
+def clean_abstract(raw):
+    """Strip markup and boilerplate from an abstract.
+
+    Crossref returns abstracts wrapped in JATS tags (<jats:p> and friends);
+    some feeds return HTML. Neither is wanted in a feed reader.
+    """
+    if not raw:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    # Publishers often prefix the word itself; it adds nothing.
+    text = re.sub(r"^(abstract|summary)\s*[:.\-]?\s*", "", text, flags=re.I)
+    return text.strip()
+
+
+def is_citation_line(text):
+    """True if a summary is bibliographic boilerplate rather than prose.
+
+    Sabinet's feeds put "De Jure, Volume 59, Issue 1, Page 29-34, June 2026"
+    in the description element. That occupies the abstract slot without
+    saying anything, so it should yield to a real abstract when one appears.
+    """
+    if not text:
+        return True
+    t = text.strip()
+    if len(t) > 300:
+        return False
+    return bool(CITATION_LIKE.search(t))
+
+
 def clean_doi(raw):
     """Normalise anything DOI-shaped to a bare 10.xxxx/yyyy string."""
     if not raw:
@@ -93,6 +130,37 @@ def clean_doi(raw):
             raw = raw[len(prefix):]
     raw = raw.strip()
     return raw if raw.startswith("10.") else ""
+
+
+# Fields worth copying from a Crossref record onto a feed-derived item that
+# lacks them. The feed's own title, link and date are left alone: the feed is
+# the more current source and its link points at the article itself, whereas
+# Crossref's points at a DOI resolver.
+ENRICHABLE = ("doi", "publication", "volume", "issue", "pages", "author")
+
+
+def enrich(existing, incoming):
+    """Fill empty fields on a stored item from a duplicate found elsewhere.
+
+    Returns the list of field names actually filled, so the run can report
+    how much was gained rather than silently changing the store.
+    """
+    filled = []
+    for field in ENRICHABLE:
+        if not (existing.get(field) or "").strip() and (incoming.get(field) or "").strip():
+            existing[field] = incoming[field]
+            filled.append(field)
+
+    # The abstract is a special case. A feed may have filled the slot with a
+    # citation line, which should give way to a real abstract; and a longer
+    # abstract is better than a truncated one.
+    have = (existing.get("summary") or "").strip()
+    offered = (incoming.get("summary") or "").strip()
+    if offered and not is_citation_line(offered):
+        if is_citation_line(have) or len(offered) > len(have) * 2:
+            existing["summary"] = offered
+            filled.append("abstract")
+    return filled
 
 
 def title_key(journal, title):
@@ -443,7 +511,7 @@ def crossref_items(issn, journal, days):
             "title": title or "(untitled)",
             "link": link,
             "author": ", ".join(names),
-            "summary": (w.get("abstract") or "")[:2000],
+            "summary": clean_abstract(w.get("abstract"))[:4000],
             "doi": doi,
             "publication": containers[0] if containers else "",
             "volume": str(w.get("volume") or ""),
@@ -608,7 +676,9 @@ def main():
     print("%d confirmed feeds in %s" % (len(roster), args.csv))
 
     failures = []
-    seen_titles = set(title_key(i["journal"], i["title"]) for i in store.values())
+    by_title = {}
+    for i in store.values():
+        by_title.setdefault(title_key(i["journal"], i["title"]), i)
     for j in roster:
         try:
             body = fetch(j["url"], j["tls"])
@@ -624,10 +694,10 @@ def main():
         fresh = 0
         for it in items:
             tk = title_key(it["journal"], it["title"])
-            if it["id"] in store or tk in seen_titles:
+            if it["id"] in store or tk in by_title:
                 continue
             store[it["id"]] = it
-            seen_titles.add(tk)
+            by_title[tk] = it
             fresh += 1
         print("  %-10s %3d items, %d new" % (j["name"], len(items), fresh))
 
@@ -645,19 +715,26 @@ def main():
                     break  # this ISSN works; no need to try the other
             fresh = 0
             dupes = 0
+            enriched = 0
             for it in items:
                 tk = title_key(it["journal"], it["title"])
-                if it["id"] in store or tk in seen_titles:
+                held = store.get(it["id"]) or by_title.get(tk)
+                if held is not None:
                     dupes += 1
+                    # The article is already here, but the Crossref record may
+                    # carry a DOI the feed never supplied. Fill the gaps rather
+                    # than discarding it.
+                    if enrich(held, it):
+                        enriched += 1
                     continue
                 store[it["id"]] = it
-                seen_titles.add(tk)
+                by_title[tk] = it
                 fresh += 1
             if note != "ok":
                 print("  %-10s %-14s %s" % (name, issn, note))
             else:
-                print("  %-10s %-14s %3d works, %d new, %d already held"
-                      % (name, issn, len(items), fresh, dupes))
+                print("  %-10s %-14s %3d works, %d new, %d held, %d enriched"
+                      % (name, issn, len(items), fresh, dupes, enriched))
                 if name in failed_names and items:
                     failures = [f for f in failures if f[0] != name]
 
@@ -674,6 +751,14 @@ def main():
         print("failed feeds:")
         for name, why in failures:
             print("  %-10s %s" % (name, why))
+    total = max(len(store), 1)
+    with_doi = sum(1 for i in store.values() if (i.get("doi") or "").strip())
+    with_abs = sum(1 for i in store.values()
+                   if not is_citation_line(i.get("summary") or ""))
+    print("DOI coverage:      %d of %d items (%.0f%%)"
+          % (with_doi, len(store), 100.0 * with_doi / total))
+    print("Abstract coverage: %d of %d items (%.0f%%)"
+          % (with_abs, len(store), 100.0 * with_abs / total))
     print("wrote %s and %s" % (merged_path, store_path))
 
     if args.publish:
