@@ -15,6 +15,21 @@
   "first_seen": "2026-09-02T08:15:55.957350+00:00"
  },
  {
+  "id": "a6200b3dcce0b2af56d5774aa708fa360b754a11",
+  "journal": "PELJ",
+  "title": "Navigating Ethical Boundaries In The Use Of Generative AI In Legal Practice: Mavundla V MEC for Cooperative Governance and Traditional Affairs and Others",
+  "link": "https://perjournal.co.za/article/view/21359",
+  "author": "Daniël Eloff, Willem Gravett",
+  "summary": "<p>The rapid integration of generative artificial intelligence (AI) in legal practice presents significant ethical and professional challenges. This article critically examines the judgment of <em>Mavundla v MEC: Department of Cooperative Governance and Traditional Affairs, KwaZulu-Natal, and </em><em>o</em><em>thers</em>, in which the KwaZulu-Natal High Court addressed the misuse of generative AI in legal proceedings. The judgment raises pivotal concerns regarding the accuracy, reliability, and ethical implications of AI-generated legal research. A central issue in the case was the candidate attorney’s reliance on AI-generated citations, which the court found to be unverified and, in some instances, fictitious. This highlights issues of automation bias, legal practitioners’ duty of care, and the broader implications for professional responsibility in the digital era. The article critiques the court’s approach to AI regulation, arguing that while the judgment rightly condemns AI misuse, it fails to distinguish between different AI applications and does not offer a comprehensive framework for responsible AI adoption in legal practice. The article argues for a structured regulatory approach that includes mandatory verification protocols, judicial oversight mechanisms, and ethical guidelines to govern AI use in legal research and litigation. Ultimately, the article underscores that while AI can enhance efficiency and access to justice, it cannot substitute the critical reasoning, legal judgment, and ethical obligations that underpin the legal profession. Courts and regulatory bodies must proactively engage with AI’s implications to ensure its responsible and ethical use in legal practice.</p>",
+  "doi": "10.17159/1727-3781/2026/v29i0a21359",
+  "publication": "Potchefstroom Electronic Law Journal",
+  "volume": "29",
+  "issue": "",
+  "pages": "",
+  "date": "2026-09-06T22:00:00+00:00",
+  "first_seen": "2026-09-08T05:12:04.451093+00:00"
+ },
+ {
   "id": "71ca3956f3f6a53675705bd123f5d656f8fb5a2c",
   "journal": "SAPL",
   "title": "The Constitutional Duty for ‘Public Value’ in Municipal Stormwater Management in South Africa",
