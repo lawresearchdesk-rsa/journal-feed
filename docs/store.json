@@ -15,6 +15,21 @@
   "first_seen": "2026-09-02T08:15:55.957350+00:00"
  },
  {
+  "id": "e403fc1e2c86ff25a8a285c6ccf11f88f8d3d097",
+  "journal": "PELJ",
+  "title": "The Influence of AI Tools in Academic Legal Journal Publications in South Africa",
+  "link": "https://perjournal.co.za/article/view/22230",
+  "author": "Arthur Van Coller",
+  "summary": "<p class=\"MsoNormal\" style=\"line-height: normal;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 9.0pt;\">This article investigates the influence of generative AI tools, particularly large language models, on academic legal writing published in South Africa between 2017 and 2024. The study employs a longitudinal analysis of 2,129 peer-reviewed legal journal articles. Thereafter, it uses a combination of linguistic markers, statistical testing and AI-detection tools to evaluate shifts in writing style and structure. While subtle indicators of hybrid authorship emerged from 2022 onward, the findings reveal minimal AI-generated content and no evidence of complete AI-authored legal scholarship in the journals/publications evaluated. The article further explores the limitations of existing detection tools and raises concerns about transparency, disclosure practices, and the ethical implications of unacknowledged AI assistance. It recommends regulatory reforms for legal journals, academic institutions, and promotion systems to preserve authorship integrity and educational accountability in an evolving scholarly landscape.</span></p> <p class=\"MsoNormal\"> </p>",
+  "doi": "10.17159/1727-3781/2026/v29i0a22230",
+  "publication": "Potchefstroom Electronic Law Journal",
+  "volume": "29",
+  "issue": "",
+  "pages": "",
+  "date": "2026-11-05T22:00:00+00:00",
+  "first_seen": "2026-11-06T12:44:56.145180+00:00"
+ },
+ {
   "id": "8104bbea17ccfb7d4e40fec2f9dd4f9c918c7977",
   "journal": "PELJ",
   "title": "State Capture and Institutional Recovery at SARS: Implications for Financial Crime Enforcement in South Africa",
