@@ -1448,8 +1448,8 @@
   "summary": "",
   "doi": "10.1080/02587203.2026.2696251",
   "publication": "South African Journal on Human Rights",
-  "volume": "",
-  "issue": "",
+  "volume": "42",
+  "issue": "1-2",
   "pages": "1-15",
   "date": "2026-09-08T00:00:00+00:00",
   "first_seen": "2026-09-09T05:12:04.582097+00:00"
@@ -1463,8 +1463,8 @@
   "summary": "",
   "doi": "10.1080/02587203.2026.2726758",
   "publication": "South African Journal on Human Rights",
-  "volume": "",
-  "issue": "",
+  "volume": "42",
+  "issue": "1-2",
   "pages": "1-33",
   "date": "2026-09-08T00:00:00+00:00",
   "first_seen": "2026-09-10T05:12:20.490738+00:00"
@@ -1585,7 +1585,9 @@
   "first_seen": "2026-09-02T05:11:48.965513+00:00",
   "doi": "10.1080/02587203.2026.2703642",
   "publication": "South African Journal on Human Rights",
-  "pages": "1-24"
+  "pages": "1-24",
+  "volume": "42",
+  "issue": "1-2"
  },
  {
   "id": "991db5c615dd16969b4ab460e07eb0551f29cb3a",
@@ -2150,7 +2152,9 @@
   "first_seen": "2026-09-01T11:39:14.580054+00:00",
   "doi": "10.1080/02587203.2026.2701076",
   "publication": "South African Journal on Human Rights",
-  "pages": "1-22"
+  "pages": "1-22",
+  "volume": "42",
+  "issue": "1-2"
  },
  {
   "id": "e6778d3b335b8f529ef10ef5688731e5dbe05823",
@@ -3346,7 +3350,9 @@
   "first_seen": "2026-09-01T11:39:14.580077+00:00",
   "doi": "10.1080/02587203.2026.2671737",
   "publication": "South African Journal on Human Rights",
-  "pages": "1-20"
+  "pages": "1-20",
+  "volume": "42",
+  "issue": "1-2"
  },
  {
   "id": "c04406399ea54d1921ff4c0f151e837c39b00d7d",
@@ -3636,7 +3642,9 @@
   "first_seen": "2026-09-01T11:39:14.580086+00:00",
   "doi": "10.1080/02587203.2026.2649736",
   "publication": "South African Journal on Human Rights",
-  "pages": "1-21"
+  "pages": "1-21",
+  "volume": "42",
+  "issue": "1-2"
  },
  {
   "id": "1f674bdfb97cbd77a5199b0366e2984671784294",
